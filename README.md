@@ -1,2 +1,5 @@
-# r_mapas
-Repositório relacionado ao livro sobre como fazer mapas no R
+# Mapas no R
+#### Raul Ossada
+
+Este livro tem como objetivo de ensinar alguns pacotes e comando do R relacionados à criação de mapas.
+

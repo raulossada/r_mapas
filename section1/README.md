@@ -1,3 +1,3 @@
-# Instalando
+# Seção 1
 
-Neste capítulo vamos ver como instalar e configurar o Git, o GitHub, o R e o RStudio, para que estes programas funcionem em conjunto.
+Nesta seção iremos ver alguns conceitos mais básicos quando se trabalha com mapas.

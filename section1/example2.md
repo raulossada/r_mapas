@@ -1,1 +1,15 @@
-![plot of chunk knitsetup](figure/knitsetup-1.png) 
+
+
+## Tipos de shapefile
+
+Shape de Polígonos
+
+Shape de Pontos
+
+Shape de linhas
+
+
+Mapas Vetoriais
+
+Mapas de Raster
+

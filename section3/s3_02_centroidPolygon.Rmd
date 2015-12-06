@@ -1,0 +1,40 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=FALSE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
+
+
+# end setup chunk
+```
+
+## Calcular o centróide de 1 ou mais polígonos
+
+#### Função: coordinates
+
+Recomenda-se o uso da função `slot` em conjunto com algumas operações de lógica de programação.
+
+1) Carregar o shapefile
+```{r message=FALSE}
+library("rgdal");
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+```
+
+```{r}
+pb_dados <- slot(object=pb_poligonos_rgdal, name="data");
+
+lista_municipios <- c("Cruz do Espírito Santo", "João Pessoa");
+
+indice_numerico <- which( pb_dados$Nome_Munic %in% lista_municipios );
+print(indice_numerico);
+
+dados_municipios <- pb_poligonos_rgdal[indice_numerico, ];
+
+centroide_poligono <- coordinates(obj=dados_municipios);
+
+print(centroide_poligono);
+
+plot(centroide_poligono, pch=19, cex=0.5, col="red");
+
+#text(x=centroide_poligono[1,1], y=centroide_poligono[1,2], "SÃO PAULO");
+```

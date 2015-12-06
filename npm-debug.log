@@ -1,0 +1,2962 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\PROGRA~1\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\PROGRA~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gitbook-pdf',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\PROGRA~1\nodejs\\node.exe
+5 verbose cache add [ 'gitbook-pdf', null ]
+6 verbose cache add name=undefined spec="gitbook-pdf" args=["gitbook-pdf",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gitbook-pdf',
+7 verbose parsed url   path: 'gitbook-pdf',
+7 verbose parsed url   href: 'gitbook-pdf' }
+8 silly lockFile a6e54068-gitbook-pdf gitbook-pdf
+9 verbose lock gitbook-pdf C:\Users\raul\AppData\Roaming\npm-cache\a6e54068-gitbook-pdf.lock
+10 silly lockFile a6e54068-gitbook-pdf gitbook-pdf
+11 silly lockFile a6e54068-gitbook-pdf gitbook-pdf
+12 verbose addNamed [ 'gitbook-pdf', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 12ba738b-gitbook-pdf gitbook-pdf@
+15 verbose lock gitbook-pdf@ C:\Users\raul\AppData\Roaming\npm-cache\12ba738b-gitbook-pdf.lock
+16 silly addNameRange { name: 'gitbook-pdf', range: '*', hasData: false }
+17 verbose url raw gitbook-pdf
+18 verbose url resolving [ 'https://registry.npmjs.org/', './gitbook-pdf' ]
+19 verbose url resolved https://registry.npmjs.org/gitbook-pdf
+20 info trying registry request attempt 1 at 20:52:36
+21 verbose etag "1TJ5ZKSZLOC0GCDPGB3TWAZ3N"
+22 http GET https://registry.npmjs.org/gitbook-pdf
+23 http 304 https://registry.npmjs.org/gitbook-pdf
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:28 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     etag: '"1TJ5ZKSZLOC0GCDPGB3TWAZ3N"',
+24 silly registry.get     age: '0',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1449355948.080039,VS0,VE351',
+24 silly registry.get     vary: 'Accept' } ]
+25 verbose etag gitbook-pdf from cache
+26 silly addNameRange number 2 { name: 'gitbook-pdf', range: '*', hasData: true }
+27 silly addNameRange versions [ 'gitbook-pdf', [ '0.0.1', '0.0.2' ] ]
+28 verbose addNamed [ 'gitbook-pdf', '0.0.2' ]
+29 verbose addNamed [ '0.0.2', '0.0.2' ]
+30 silly lockFile 063ece04-gitbook-pdf-0-0-2 gitbook-pdf@0.0.2
+31 verbose lock gitbook-pdf@0.0.2 C:\Users\raul\AppData\Roaming\npm-cache\063ece04-gitbook-pdf-0-0-2.lock
+32 silly lockFile 063ece04-gitbook-pdf-0-0-2 gitbook-pdf@0.0.2
+33 silly lockFile 063ece04-gitbook-pdf-0-0-2 gitbook-pdf@0.0.2
+34 silly lockFile 12ba738b-gitbook-pdf gitbook-pdf@
+35 silly lockFile 12ba738b-gitbook-pdf gitbook-pdf@
+36 silly resolved [ { name: 'gitbook-pdf',
+36 silly resolved     version: '0.0.2',
+36 silly resolved     description: 'PDF Generator for GitBook',
+36 silly resolved     main: 'lib/index.js',
+36 silly resolved     dependencies:
+36 silly resolved      { q: '1.0.1',
+36 silly resolved        lodash: '2.4.1',
+36 silly resolved        commander: '2.2.0',
+36 silly resolved        phantomjs: '1.9.7-5' },
+36 silly resolved     bin: { 'gitbook-pdf': './bin/gitbook-pdf.js' },
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'https://github.com/GitbookIO/gitbook-pdf.git' },
+36 silly resolved     keywords: [ 'git', 'book', 'gitbook', 'pdf' ],
+36 silly resolved     author: { name: 'Samy Pessé', email: 'samypesse@gmail.com' },
+36 silly resolved     license: 'Apache 2',
+36 silly resolved     bugs: { url: 'https://github.com/GitbookIO/gitbook-pdf/issues' },
+36 silly resolved     homepage: 'https://github.com/GitbookIO/gitbook-pdf',
+36 silly resolved     _id: 'gitbook-pdf@0.0.2',
+36 silly resolved     dist:
+36 silly resolved      { shasum: 'f63db2806a0c498a116d30e78323881e53d1e75c',
+36 silly resolved        tarball: 'http://registry.npmjs.org/gitbook-pdf/-/gitbook-pdf-0.0.2.tgz' },
+36 silly resolved     _from: 'gitbook-pdf@',
+36 silly resolved     _npmVersion: '1.4.3',
+36 silly resolved     _npmUser: { name: 'samypesse', email: 'samypesse@gmail.com' },
+36 silly resolved     maintainers: [ [Object] ],
+36 silly resolved     directories: {},
+36 silly resolved     _shasum: 'f63db2806a0c498a116d30e78323881e53d1e75c',
+36 silly resolved     _resolved: 'https://registry.npmjs.org/gitbook-pdf/-/gitbook-pdf-0.0.2.tgz',
+36 silly resolved     readme: 'ERROR: No README data found!' } ]
+37 info install gitbook-pdf@0.0.2 into C:\Users\raul\AppData\Roaming\npm
+38 info installOne gitbook-pdf@0.0.2
+39 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf unbuild
+40 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz
+41 silly lockFile 5080b684-ing-npm-node-modules-gitbook-pdf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+42 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf C:\Users\raul\AppData\Roaming\npm-cache\5080b684-ing-npm-node-modules-gitbook-pdf.lock
+43 silly lockFile ee67ae7b-he-gitbook-pdf-0-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz
+44 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\ee67ae7b-he-gitbook-pdf-0-0-2-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry LICENSE
+50 silly gunzTarPerm extractEntry bin/gitbook-pdf.js
+51 silly gunzTarPerm extractEntry lib/index.js
+52 silly gunzTarPerm extractEntry lib/rasterize.js
+53 silly lockFile 5080b684-ing-npm-node-modules-gitbook-pdf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+54 silly lockFile 5080b684-ing-npm-node-modules-gitbook-pdf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+55 silly lockFile ee67ae7b-he-gitbook-pdf-0-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz
+56 silly lockFile ee67ae7b-he-gitbook-pdf-0-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\gitbook-pdf\0.0.2\package.tgz
+57 info preinstall gitbook-pdf@0.0.2
+58 verbose readDependencies using package.json deps
+59 verbose readDependencies using package.json deps
+60 verbose cache add [ 'q@1.0.1', null ]
+61 verbose cache add name=undefined spec="q@1.0.1" args=["q@1.0.1",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'q@1.0.1',
+62 verbose parsed url   path: 'q@1.0.1',
+62 verbose parsed url   href: 'q@1.0.1' }
+63 verbose cache add [ 'lodash@2.4.1', null ]
+64 verbose cache add name=undefined spec="lodash@2.4.1" args=["lodash@2.4.1",null]
+65 verbose parsed url { protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: 'lodash@2.4.1',
+65 verbose parsed url   path: 'lodash@2.4.1',
+65 verbose parsed url   href: 'lodash@2.4.1' }
+66 verbose cache add [ 'commander@2.2.0', null ]
+67 verbose cache add name=undefined spec="commander@2.2.0" args=["commander@2.2.0",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'commander@2.2.0',
+68 verbose parsed url   path: 'commander@2.2.0',
+68 verbose parsed url   href: 'commander@2.2.0' }
+69 verbose cache add [ 'phantomjs@1.9.7-5', null ]
+70 verbose cache add name=undefined spec="phantomjs@1.9.7-5" args=["phantomjs@1.9.7-5",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'phantomjs@1.9.7-5',
+71 verbose parsed url   path: 'phantomjs@1.9.7-5',
+71 verbose parsed url   href: 'phantomjs@1.9.7-5' }
+72 verbose cache add name="q" spec="1.0.1" args=["q","1.0.1"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '1.0.1',
+73 verbose parsed url   path: '1.0.1',
+73 verbose parsed url   href: '1.0.1' }
+74 verbose addNamed [ 'q', '1.0.1' ]
+75 verbose addNamed [ '1.0.1', '1.0.1' ]
+76 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+77 verbose lock q@1.0.1 C:\Users\raul\AppData\Roaming\npm-cache\5720ee24-q-1-0-1.lock
+78 verbose cache add name="lodash" spec="2.4.1" args=["lodash","2.4.1"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '2.4.1',
+79 verbose parsed url   path: '2.4.1',
+79 verbose parsed url   href: '2.4.1' }
+80 verbose addNamed [ 'lodash', '2.4.1' ]
+81 verbose addNamed [ '2.4.1', '2.4.1' ]
+82 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+83 verbose lock lodash@2.4.1 C:\Users\raul\AppData\Roaming\npm-cache\8502be2a-lodash-2-4-1.lock
+84 verbose cache add name="commander" spec="2.2.0" args=["commander","2.2.0"]
+85 verbose parsed url { protocol: null,
+85 verbose parsed url   slashes: null,
+85 verbose parsed url   auth: null,
+85 verbose parsed url   host: null,
+85 verbose parsed url   port: null,
+85 verbose parsed url   hostname: null,
+85 verbose parsed url   hash: null,
+85 verbose parsed url   search: null,
+85 verbose parsed url   query: null,
+85 verbose parsed url   pathname: '2.2.0',
+85 verbose parsed url   path: '2.2.0',
+85 verbose parsed url   href: '2.2.0' }
+86 verbose addNamed [ 'commander', '2.2.0' ]
+87 verbose addNamed [ '2.2.0', '2.2.0' ]
+88 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+89 verbose lock commander@2.2.0 C:\Users\raul\AppData\Roaming\npm-cache\a636243f-commander-2-2-0.lock
+90 verbose cache add name="phantomjs" spec="1.9.7-5" args=["phantomjs","1.9.7-5"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '1.9.7-5',
+91 verbose parsed url   path: '1.9.7-5',
+91 verbose parsed url   href: '1.9.7-5' }
+92 verbose addNamed [ 'phantomjs', '1.9.7-5' ]
+93 verbose addNamed [ '1.9.7-5', '1.9.7-5' ]
+94 silly lockFile 60af4bdb-phantomjs-1-9-7-5 phantomjs@1.9.7-5
+95 verbose lock phantomjs@1.9.7-5 C:\Users\raul\AppData\Roaming\npm-cache\60af4bdb-phantomjs-1-9-7-5.lock
+96 verbose url raw lodash
+97 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+98 verbose url resolved https://registry.npmjs.org/lodash
+99 info trying registry request attempt 1 at 20:52:38
+100 verbose etag "EDZP8KOK8HQ3XHE2WPKINXADH"
+101 http GET https://registry.npmjs.org/lodash
+102 verbose url raw q
+103 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+104 verbose url resolved https://registry.npmjs.org/q
+105 info trying registry request attempt 1 at 20:52:38
+106 verbose etag "DM89ZXAN3V45KBUPUQ12EYQLB"
+107 http GET https://registry.npmjs.org/q
+108 verbose url raw commander
+109 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+110 verbose url resolved https://registry.npmjs.org/commander
+111 info trying registry request attempt 1 at 20:52:38
+112 verbose etag "73AF0AB9W806LSB3E4CAIA2OI"
+113 http GET https://registry.npmjs.org/commander
+114 verbose url raw phantomjs
+115 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+116 verbose url resolved https://registry.npmjs.org/phantomjs
+117 info trying registry request attempt 1 at 20:52:38
+118 verbose etag "3Y4EPGO57FEYDKWUYJIZ7GBTS"
+119 http GET https://registry.npmjs.org/phantomjs
+120 http 304 https://registry.npmjs.org/commander
+121 silly registry.get cb [ 304,
+121 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:29 GMT',
+121 silly registry.get     via: '1.1 varnish',
+121 silly registry.get     'cache-control': 'max-age=60',
+121 silly registry.get     etag: '"73AF0AB9W806LSB3E4CAIA2OI"',
+121 silly registry.get     age: '24',
+121 silly registry.get     connection: 'keep-alive',
+121 silly registry.get     'x-served-by': 'cache-atl6222-ATL',
+121 silly registry.get     'x-cache': 'HIT',
+121 silly registry.get     'x-cache-hits': '1',
+121 silly registry.get     'x-timer': 'S1449355949.274441,VS0,VE0',
+121 silly registry.get     vary: 'Accept' } ]
+122 verbose etag commander from cache
+123 http 304 https://registry.npmjs.org/lodash
+124 silly registry.get cb [ 304,
+124 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:29 GMT',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     etag: '"EDZP8KOK8HQ3XHE2WPKINXADH"',
+124 silly registry.get     age: '20',
+124 silly registry.get     connection: 'keep-alive',
+124 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '2',
+124 silly registry.get     'x-timer': 'S1449355949.309395,VS0,VE0',
+124 silly registry.get     vary: 'Accept' } ]
+125 verbose etag lodash from cache
+126 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+127 silly lockFile a636243f-commander-2-2-0 commander@2.2.0
+128 warn deprecated lodash@2.4.1: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+129 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+130 silly lockFile 8502be2a-lodash-2-4-1 lodash@2.4.1
+131 http 304 https://registry.npmjs.org/q
+132 silly registry.get cb [ 304,
+132 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:29 GMT',
+132 silly registry.get     via: '1.1 varnish',
+132 silly registry.get     'cache-control': 'max-age=60',
+132 silly registry.get     etag: '"DM89ZXAN3V45KBUPUQ12EYQLB"',
+132 silly registry.get     age: '29',
+132 silly registry.get     connection: 'keep-alive',
+132 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+132 silly registry.get     'x-cache': 'HIT',
+132 silly registry.get     'x-cache-hits': '1',
+132 silly registry.get     'x-timer': 'S1449355949.319934,VS0,VE0',
+132 silly registry.get     vary: 'Accept' } ]
+133 verbose etag q from cache
+134 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+135 silly lockFile 5720ee24-q-1-0-1 q@1.0.1
+136 http 304 https://registry.npmjs.org/phantomjs
+137 silly registry.get cb [ 304,
+137 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:29 GMT',
+137 silly registry.get     via: '1.1 varnish',
+137 silly registry.get     'cache-control': 'max-age=60',
+137 silly registry.get     etag: '"3Y4EPGO57FEYDKWUYJIZ7GBTS"',
+137 silly registry.get     age: '37',
+137 silly registry.get     connection: 'keep-alive',
+137 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+137 silly registry.get     'x-cache': 'HIT',
+137 silly registry.get     'x-cache-hits': '9',
+137 silly registry.get     'x-timer': 'S1449355949.357462,VS0,VE0',
+137 silly registry.get     vary: 'Accept' } ]
+138 verbose etag phantomjs from cache
+139 silly lockFile 60af4bdb-phantomjs-1-9-7-5 phantomjs@1.9.7-5
+140 silly lockFile 60af4bdb-phantomjs-1-9-7-5 phantomjs@1.9.7-5
+141 silly resolved [ { name: 'commander',
+141 silly resolved     version: '2.2.0',
+141 silly resolved     description: 'the complete solution for node.js command-line programs',
+141 silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+141 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+141 silly resolved     repository:
+141 silly resolved      { type: 'git',
+141 silly resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+141 silly resolved     devDependencies: { should: '>= 0.0.1' },
+141 silly resolved     scripts: { test: 'make test' },
+141 silly resolved     main: 'index',
+141 silly resolved     engines: { node: '>= 0.6.x' },
+141 silly resolved     files: [ 'index.js' ],
+141 silly resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+141 silly resolved     homepage: 'https://github.com/visionmedia/commander.js',
+141 silly resolved     _id: 'commander@2.2.0',
+141 silly resolved     dist:
+141 silly resolved      { shasum: '175ad4b9317f3ff615f201c1e57224f55a3e91df',
+141 silly resolved        tarball: 'http://registry.npmjs.org/commander/-/commander-2.2.0.tgz' },
+141 silly resolved     _from: 'commander@2.2.0',
+141 silly resolved     _npmVersion: '1.3.15',
+141 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+141 silly resolved     maintainers: [ [Object] ],
+141 silly resolved     directories: {},
+141 silly resolved     _shasum: '175ad4b9317f3ff615f201c1e57224f55a3e91df',
+141 silly resolved     _resolved: 'https://registry.npmjs.org/commander/-/commander-2.2.0.tgz',
+141 silly resolved     readme: 'ERROR: No README data found!' },
+141 silly resolved   { name: 'lodash',
+141 silly resolved     version: '2.4.1',
+141 silly resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+141 silly resolved     homepage: 'http://lodash.com/',
+141 silly resolved     license: 'MIT',
+141 silly resolved     main: 'dist/lodash.js',
+141 silly resolved     keywords:
+141 silly resolved      [ 'amd',
+141 silly resolved        'browser',
+141 silly resolved        'client',
+141 silly resolved        'customize',
+141 silly resolved        'functional',
+141 silly resolved        'server',
+141 silly resolved        'util' ],
+141 silly resolved     author:
+141 silly resolved      { name: 'John-David Dalton',
+141 silly resolved        email: 'john.david.dalton@gmail.com',
+141 silly resolved        url: 'http://allyoucanleet.com/' },
+141 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+141 silly resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+141 silly resolved     repository: { type: 'git', url: 'https://github.com/lodash/lodash.git' },
+141 silly resolved     engines: [ 'node', 'rhino' ],
+141 silly resolved     files:
+141 silly resolved      [ 'LICENSE.txt',
+141 silly resolved        'lodash.js',
+141 silly resolved        'dist/lodash.js',
+141 silly resolved        'dist/lodash.min.js',
+141 silly resolved        'dist/lodash.compat.js',
+141 silly resolved        'dist/lodash.compat.min.js',
+141 silly resolved        'dist/lodash.underscore.js',
+141 silly resolved        'dist/lodash.underscore.min.js' ],
+141 silly resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+141 silly resolved     volo: { type: 'directory', ignore: [Object] },
+141 silly resolved     _id: 'lodash@2.4.1',
+141 silly resolved     dist:
+141 silly resolved      { shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+141 silly resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz' },
+141 silly resolved     _from: 'lodash@2.4.1',
+141 silly resolved     _npmVersion: '1.3.14',
+141 silly resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+141 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+141 silly resolved     directories: {},
+141 silly resolved     _shasum: '5b7723034dda4d262e5a46fb2c58d7cc22f71420',
+141 silly resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz',
+141 silly resolved     readme: 'ERROR: No README data found!' },
+141 silly resolved   { name: 'q',
+141 silly resolved     version: '1.0.1',
+141 silly resolved     description: 'A library for promises (CommonJS/Promises/A,B,D)',
+141 silly resolved     homepage: 'https://github.com/kriskowal/q',
+141 silly resolved     author:
+141 silly resolved      { name: 'Kris Kowal',
+141 silly resolved        email: 'kris@cixar.com',
+141 silly resolved        url: 'https://github.com/kriskowal' },
+141 silly resolved     keywords:
+141 silly resolved      [ 'q',
+141 silly resolved        'promise',
+141 silly resolved        'promises',
+141 silly resolved        'promises-a',
+141 silly resolved        'promises-aplus',
+141 silly resolved        'deferred',
+141 silly resolved        'future',
+141 silly resolved        'async',
+141 silly resolved        'flow control',
+141 silly resolved        'fluent',
+141 silly resolved        'browser',
+141 silly resolved        'node' ],
+141 silly resolved     contributors: [ [Object], [Object], [Object] ],
+141 silly resolved     bugs: { url: 'http://github.com/kriskowal/q/issues' },
+141 silly resolved     license:
+141 silly resolved      { type: 'MIT',
+141 silly resolved        url: 'http://github.com/kriskowal/q/raw/master/LICENSE' },
+141 silly resolved     main: 'q.js',
+141 silly resolved     repository: { type: 'git', url: 'git://github.com/kriskowal/q.git' },
+141 silly resolved     engines: { node: '>=0.6.0', teleport: '>=0.2.0' },
+141 silly resolved     dependencies: {},
+141 silly resolved     devDependencies:
+141 silly resolved      { jshint: '~2.1.9',
+141 silly resolved        cover: '*',
+141 silly resolved        'jasmine-node': '1.11.0',
+141 silly resolved        opener: '*',
+141 silly resolved        'promises-aplus-tests': '1.x',
+141 silly resolved        grunt: '~0.4.1',
+141 silly resolved        'grunt-cli': '~0.1.9',
+141 silly resolved        'grunt-contrib-uglify': '~0.2.2',
+141 silly resolved        matcha: '~0.2.0' },
+141 silly resolved     scripts:
+141 silly resolved      { test: 'jasmine-node spec && promises-aplus-tests spec/aplus-adapter',
+141 silly resolved        'test-browser': 'opener spec/q-spec.html',
+141 silly resolved        benchmark: 'matcha',
+141 silly resolved        lint: 'jshint q.js',
+141 silly resolved        cover: 'cover run node_modules/jasmine-node/bin/jasmine-node spec && cover report html && opener cover_html/index.html',
+141 silly resolved        minify: 'grunt',
+141 silly resolved        prepublish: 'grunt' },
+141 silly resolved     overlay: { teleport: [Object] },
+141 silly resolved     directories: { test: './spec' },
+141 silly resolved     _id: 'q@1.0.1',
+141 silly resolved     dist:
+141 silly resolved      { shasum: '11872aeedee89268110b10a718448ffb10112a14',
+141 silly resolved        tarball: 'http://registry.npmjs.org/q/-/q-1.0.1.tgz' },
+141 silly resolved     _from: 'q@1.0.1',
+141 silly resolved     _npmVersion: '1.4.4',
+141 silly resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+141 silly resolved     maintainers: [ [Object], [Object] ],
+141 silly resolved     _shasum: '11872aeedee89268110b10a718448ffb10112a14',
+141 silly resolved     _resolved: 'https://registry.npmjs.org/q/-/q-1.0.1.tgz',
+141 silly resolved     readme: 'ERROR: No README data found!' },
+141 silly resolved   { name: 'phantomjs',
+141 silly resolved     version: '1.9.7-5',
+141 silly resolved     keywords: [ 'phantomjs', 'headless', 'webkit' ],
+141 silly resolved     description: 'Headless WebKit with JS API',
+141 silly resolved     homepage: 'https://github.com/Obvious/phantomjs',
+141 silly resolved     repository: { type: 'git', url: 'git://github.com/Obvious/phantomjs.git' },
+141 silly resolved     licenses: [ [Object] ],
+141 silly resolved     author:
+141 silly resolved      { name: 'Dan Pupius',
+141 silly resolved        email: 'dan@obvious.com',
+141 silly resolved        url: 'http://pupius.co.uk' },
+141 silly resolved     maintainers: [ [Object] ],
+141 silly resolved     main: 'lib/phantomjs',
+141 silly resolved     bin: { phantomjs: './bin/phantomjs' },
+141 silly resolved     scripts:
+141 silly resolved      { install: 'node install.js',
+141 silly resolved        test: 'nodeunit --reporter=minimal test/tests.js' },
+141 silly resolved     dependencies:
+141 silly resolved      { 'adm-zip': '0.2.1',
+141 silly resolved        kew: '~0.1.7',
+141 silly resolved        ncp: '0.4.2',
+141 silly resolved        npmconf: '0.0.24',
+141 silly resolved        mkdirp: '0.3.5',
+141 silly resolved        rimraf: '~2.2.2',
+141 silly resolved        which: '~1.0.5' },
+141 silly resolved     devDependencies: { nodeunit: '~0.7.4' },
+141 silly resolved     bugs: { url: 'https://github.com/Obvious/phantomjs/issues' },
+141 silly resolved     _id: 'phantomjs@1.9.7-5',
+141 silly resolved     dist:
+141 silly resolved      { shasum: '7ac13fdc618c861dd34f7e5636bfa5bae30d3820',
+141 silly resolved        tarball: 'http://registry.npmjs.org/phantomjs/-/phantomjs-1.9.7-5.tgz' },
+141 silly resolved     _from: 'phantomjs@1.9.7-5',
+141 silly resolved     _npmVersion: '1.4.3',
+141 silly resolved     _npmUser: { name: 'dpup', email: 'dan@pupi.us' },
+141 silly resolved     directories: {},
+141 silly resolved     _shasum: '7ac13fdc618c861dd34f7e5636bfa5bae30d3820',
+141 silly resolved     _resolved: 'https://registry.npmjs.org/phantomjs/-/phantomjs-1.9.7-5.tgz',
+141 silly resolved     readme: 'ERROR: No README data found!' } ]
+142 info install commander@2.2.0 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+143 info install lodash@2.4.1 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+144 info install q@1.0.1 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+145 info install phantomjs@1.9.7-5 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+146 info installOne commander@2.2.0
+147 info installOne lodash@2.4.1
+148 info installOne q@1.0.1
+149 info installOne phantomjs@1.9.7-5
+150 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander unbuild
+151 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash unbuild
+152 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q unbuild
+153 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs unbuild
+154 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz
+155 silly lockFile 480dd989-tbook-pdf-node-modules-commander tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+156 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander C:\Users\raul\AppData\Roaming\npm-cache\480dd989-tbook-pdf-node-modules-commander.lock
+157 silly lockFile 40c55b01-ache-commander-2-2-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz
+158 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\40c55b01-ache-commander-2-2-0-package-tgz.lock
+159 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\q\1.0.1\package.tgz
+160 silly lockFile 70a9a06d-dules-gitbook-pdf-node-modules-q tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+161 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q C:\Users\raul\AppData\Roaming\npm-cache\70a9a06d-dules-gitbook-pdf-node-modules-q.lock
+162 silly lockFile cdcdb603-ng-npm-cache-q-1-0-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\q\1.0.1\package.tgz
+163 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\q\1.0.1\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\cdcdb603-ng-npm-cache-q-1-0-1-package-tgz.lock
+164 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+165 silly lockFile 5564b31d--gitbook-pdf-node-modules-lodash tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+166 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash C:\Users\raul\AppData\Roaming\npm-cache\5564b31d--gitbook-pdf-node-modules-lodash.lock
+167 silly lockFile adb6e0b6-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+168 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\adb6e0b6-m-cache-lodash-2-4-1-package-tgz.lock
+169 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz
+170 silly lockFile ebfdf172-tbook-pdf-node-modules-phantomjs tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+171 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs C:\Users\raul\AppData\Roaming\npm-cache\ebfdf172-tbook-pdf-node-modules-phantomjs.lock
+172 silly lockFile e7c7c75c-he-phantomjs-1-9-7-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz
+173 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\e7c7c75c-he-phantomjs-1-9-7-5-package-tgz.lock
+174 silly gunzTarPerm modes [ '755', '644' ]
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gunzTarPerm modes [ '755', '644' ]
+178 silly gunzTarPerm extractEntry package.json
+179 silly gunzTarPerm extractEntry README.md
+180 silly gunzTarPerm extractEntry LICENSE
+181 silly gunzTarPerm extractEntry q.js
+182 silly gunzTarPerm extractEntry queue.js
+183 silly gunzTarPerm extractEntry CONTRIBUTING.md
+184 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+185 silly gunzTarPerm extractEntry benchmark/scenarios.js
+186 silly gunzTarPerm extractEntry package.json
+187 silly gunzTarPerm extractEntry index.js
+188 silly gunzTarPerm extractEntry Readme.md
+189 silly lockFile 480dd989-tbook-pdf-node-modules-commander tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+190 silly lockFile 480dd989-tbook-pdf-node-modules-commander tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+191 silly gunzTarPerm extractEntry package.json
+192 silly lockFile 40c55b01-ache-commander-2-2-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz
+193 silly lockFile 40c55b01-ache-commander-2-2-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\commander\2.2.0\package.tgz
+194 silly gunzTarPerm extractEntry .npmignore
+195 silly gunzTarPerm extractEntry README.md
+196 info preinstall commander@2.2.0
+197 verbose readDependencies using package.json deps
+198 verbose readDependencies using package.json deps
+199 silly resolved []
+200 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+201 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\commander
+202 verbose linkStuff [ true,
+202 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+202 verbose linkStuff   false,
+202 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+203 info linkStuff commander@2.2.0
+204 verbose linkBins commander@2.2.0
+205 verbose linkMans commander@2.2.0
+206 verbose rebuildBundles commander@2.2.0
+207 info install commander@2.2.0
+208 silly gunzTarPerm extractEntry package.json
+209 info postinstall commander@2.2.0
+210 silly gunzTarPerm extractEntry install.js
+211 silly gunzTarPerm extractEntry .jshintrc
+212 silly gunzTarPerm extractEntry .travis.yml
+213 silly gunzTarPerm extractEntry LICENSE.txt
+214 silly gunzTarPerm extractEntry bin/phantomjs
+215 silly gunzTarPerm extractEntry lib/phantomjs.js
+216 silly gunzTarPerm extractEntry test/exit.js
+217 silly gunzTarPerm extractEntry test/loadspeed.js
+218 silly gunzTarPerm extractEntry test/tests.js
+219 silly gunzTarPerm extractEntry README.md
+220 silly gunzTarPerm extractEntry lodash.js
+221 silly gunzTarPerm extractEntry LICENSE.txt
+222 silly gunzTarPerm extractEntry dist/lodash.compat.js
+223 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+224 silly lockFile 70a9a06d-dules-gitbook-pdf-node-modules-q tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+225 silly lockFile 70a9a06d-dules-gitbook-pdf-node-modules-q tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+226 silly lockFile cdcdb603-ng-npm-cache-q-1-0-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\q\1.0.1\package.tgz
+227 silly lockFile cdcdb603-ng-npm-cache-q-1-0-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\q\1.0.1\package.tgz
+228 info preinstall q@1.0.1
+229 verbose readDependencies using package.json deps
+230 verbose readDependencies using package.json deps
+231 silly resolved []
+232 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+233 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\q
+234 verbose linkStuff [ true,
+234 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+234 verbose linkStuff   false,
+234 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+235 info linkStuff q@1.0.1
+236 verbose linkBins q@1.0.1
+237 verbose linkMans q@1.0.1
+238 verbose rebuildBundles q@1.0.1
+239 info install q@1.0.1
+240 info postinstall q@1.0.1
+241 silly gunzTarPerm extractEntry dist/lodash.js
+242 silly gunzTarPerm extractEntry dist/lodash.min.js
+243 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+244 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+245 silly lockFile ebfdf172-tbook-pdf-node-modules-phantomjs tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+246 silly lockFile ebfdf172-tbook-pdf-node-modules-phantomjs tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+247 silly lockFile e7c7c75c-he-phantomjs-1-9-7-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz
+248 silly lockFile e7c7c75c-he-phantomjs-1-9-7-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\phantomjs\1.9.7-5\package.tgz
+249 info preinstall phantomjs@1.9.7-5
+250 verbose readDependencies using package.json deps
+251 verbose readDependencies using package.json deps
+252 verbose cache add [ 'adm-zip@0.2.1', null ]
+253 verbose cache add name=undefined spec="adm-zip@0.2.1" args=["adm-zip@0.2.1",null]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: 'adm-zip@0.2.1',
+254 verbose parsed url   path: 'adm-zip@0.2.1',
+254 verbose parsed url   href: 'adm-zip@0.2.1' }
+255 verbose cache add [ 'kew@~0.1.7', null ]
+256 verbose cache add name=undefined spec="kew@~0.1.7" args=["kew@~0.1.7",null]
+257 verbose parsed url { protocol: null,
+257 verbose parsed url   slashes: null,
+257 verbose parsed url   auth: null,
+257 verbose parsed url   host: null,
+257 verbose parsed url   port: null,
+257 verbose parsed url   hostname: null,
+257 verbose parsed url   hash: null,
+257 verbose parsed url   search: null,
+257 verbose parsed url   query: null,
+257 verbose parsed url   pathname: 'kew@~0.1.7',
+257 verbose parsed url   path: 'kew@~0.1.7',
+257 verbose parsed url   href: 'kew@~0.1.7' }
+258 verbose cache add [ 'ncp@0.4.2', null ]
+259 verbose cache add name=undefined spec="ncp@0.4.2" args=["ncp@0.4.2",null]
+260 verbose parsed url { protocol: null,
+260 verbose parsed url   slashes: null,
+260 verbose parsed url   auth: null,
+260 verbose parsed url   host: null,
+260 verbose parsed url   port: null,
+260 verbose parsed url   hostname: null,
+260 verbose parsed url   hash: null,
+260 verbose parsed url   search: null,
+260 verbose parsed url   query: null,
+260 verbose parsed url   pathname: 'ncp@0.4.2',
+260 verbose parsed url   path: 'ncp@0.4.2',
+260 verbose parsed url   href: 'ncp@0.4.2' }
+261 verbose cache add [ 'npmconf@0.0.24', null ]
+262 verbose cache add name=undefined spec="npmconf@0.0.24" args=["npmconf@0.0.24",null]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: 'npmconf@0.0.24',
+263 verbose parsed url   path: 'npmconf@0.0.24',
+263 verbose parsed url   href: 'npmconf@0.0.24' }
+264 verbose cache add [ 'mkdirp@0.3.5', null ]
+265 verbose cache add name=undefined spec="mkdirp@0.3.5" args=["mkdirp@0.3.5",null]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: 'mkdirp@0.3.5',
+266 verbose parsed url   path: 'mkdirp@0.3.5',
+266 verbose parsed url   href: 'mkdirp@0.3.5' }
+267 verbose cache add [ 'rimraf@~2.2.2', null ]
+268 verbose cache add name=undefined spec="rimraf@~2.2.2" args=["rimraf@~2.2.2",null]
+269 verbose parsed url { protocol: null,
+269 verbose parsed url   slashes: null,
+269 verbose parsed url   auth: null,
+269 verbose parsed url   host: null,
+269 verbose parsed url   port: null,
+269 verbose parsed url   hostname: null,
+269 verbose parsed url   hash: null,
+269 verbose parsed url   search: null,
+269 verbose parsed url   query: null,
+269 verbose parsed url   pathname: 'rimraf@~2.2.2',
+269 verbose parsed url   path: 'rimraf@~2.2.2',
+269 verbose parsed url   href: 'rimraf@~2.2.2' }
+270 verbose cache add [ 'which@~1.0.5', null ]
+271 verbose cache add name=undefined spec="which@~1.0.5" args=["which@~1.0.5",null]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'which@~1.0.5',
+272 verbose parsed url   path: 'which@~1.0.5',
+272 verbose parsed url   href: 'which@~1.0.5' }
+273 verbose cache add name="adm-zip" spec="0.2.1" args=["adm-zip","0.2.1"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '0.2.1',
+274 verbose parsed url   path: '0.2.1',
+274 verbose parsed url   href: '0.2.1' }
+275 verbose addNamed [ 'adm-zip', '0.2.1' ]
+276 verbose addNamed [ '0.2.1', '0.2.1' ]
+277 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+278 verbose lock adm-zip@0.2.1 C:\Users\raul\AppData\Roaming\npm-cache\56d2b9bc-adm-zip-0-2-1.lock
+279 verbose cache add name="kew" spec="~0.1.7" args=["kew","~0.1.7"]
+280 verbose parsed url { protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: '~0.1.7',
+280 verbose parsed url   path: '~0.1.7',
+280 verbose parsed url   href: '~0.1.7' }
+281 verbose addNamed [ 'kew', '~0.1.7' ]
+282 verbose addNamed [ null, '>=0.1.7-0 <0.2.0-0' ]
+283 silly lockFile fbc33e87-kew-0-1-7 kew@~0.1.7
+284 verbose lock kew@~0.1.7 C:\Users\raul\AppData\Roaming\npm-cache\fbc33e87-kew-0-1-7.lock
+285 verbose cache add name="ncp" spec="0.4.2" args=["ncp","0.4.2"]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '0.4.2',
+286 verbose parsed url   path: '0.4.2',
+286 verbose parsed url   href: '0.4.2' }
+287 verbose addNamed [ 'ncp', '0.4.2' ]
+288 verbose addNamed [ '0.4.2', '0.4.2' ]
+289 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+290 verbose lock ncp@0.4.2 C:\Users\raul\AppData\Roaming\npm-cache\e43cb36a-ncp-0-4-2.lock
+291 verbose cache add name="npmconf" spec="0.0.24" args=["npmconf","0.0.24"]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '0.0.24',
+292 verbose parsed url   path: '0.0.24',
+292 verbose parsed url   href: '0.0.24' }
+293 verbose addNamed [ 'npmconf', '0.0.24' ]
+294 verbose addNamed [ '0.0.24', '0.0.24' ]
+295 silly lockFile af02651e-npmconf-0-0-24 npmconf@0.0.24
+296 verbose lock npmconf@0.0.24 C:\Users\raul\AppData\Roaming\npm-cache\af02651e-npmconf-0-0-24.lock
+297 verbose cache add name="mkdirp" spec="0.3.5" args=["mkdirp","0.3.5"]
+298 verbose parsed url { protocol: null,
+298 verbose parsed url   slashes: null,
+298 verbose parsed url   auth: null,
+298 verbose parsed url   host: null,
+298 verbose parsed url   port: null,
+298 verbose parsed url   hostname: null,
+298 verbose parsed url   hash: null,
+298 verbose parsed url   search: null,
+298 verbose parsed url   query: null,
+298 verbose parsed url   pathname: '0.3.5',
+298 verbose parsed url   path: '0.3.5',
+298 verbose parsed url   href: '0.3.5' }
+299 verbose addNamed [ 'mkdirp', '0.3.5' ]
+300 verbose addNamed [ '0.3.5', '0.3.5' ]
+301 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+302 verbose lock mkdirp@0.3.5 C:\Users\raul\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+303 verbose cache add name="rimraf" spec="~2.2.2" args=["rimraf","~2.2.2"]
+304 verbose parsed url { protocol: null,
+304 verbose parsed url   slashes: null,
+304 verbose parsed url   auth: null,
+304 verbose parsed url   host: null,
+304 verbose parsed url   port: null,
+304 verbose parsed url   hostname: null,
+304 verbose parsed url   hash: null,
+304 verbose parsed url   search: null,
+304 verbose parsed url   query: null,
+304 verbose parsed url   pathname: '~2.2.2',
+304 verbose parsed url   path: '~2.2.2',
+304 verbose parsed url   href: '~2.2.2' }
+305 verbose addNamed [ 'rimraf', '~2.2.2' ]
+306 verbose addNamed [ null, '>=2.2.2-0 <2.3.0-0' ]
+307 silly lockFile 6c46433c-rimraf-2-2-2 rimraf@~2.2.2
+308 verbose lock rimraf@~2.2.2 C:\Users\raul\AppData\Roaming\npm-cache\6c46433c-rimraf-2-2-2.lock
+309 verbose cache add name="which" spec="~1.0.5" args=["which","~1.0.5"]
+310 verbose parsed url { protocol: null,
+310 verbose parsed url   slashes: null,
+310 verbose parsed url   auth: null,
+310 verbose parsed url   host: null,
+310 verbose parsed url   port: null,
+310 verbose parsed url   hostname: null,
+310 verbose parsed url   hash: null,
+310 verbose parsed url   search: null,
+310 verbose parsed url   query: null,
+310 verbose parsed url   pathname: '~1.0.5',
+310 verbose parsed url   path: '~1.0.5',
+310 verbose parsed url   href: '~1.0.5' }
+311 verbose addNamed [ 'which', '~1.0.5' ]
+312 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+313 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+314 verbose lock which@~1.0.5 C:\Users\raul\AppData\Roaming\npm-cache\d158d65e-which-1-0-5.lock
+315 silly addNameRange { name: 'rimraf', range: '>=2.2.2-0 <2.3.0-0', hasData: false }
+316 silly addNameRange { name: 'kew', range: '>=0.1.7-0 <0.2.0-0', hasData: false }
+317 silly addNameRange { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: false }
+318 verbose url raw mkdirp
+319 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+320 verbose url resolved https://registry.npmjs.org/mkdirp
+321 info trying registry request attempt 1 at 20:52:39
+322 verbose etag "1ZHW085S0QITZK1N5T1CK63KQ"
+323 http GET https://registry.npmjs.org/mkdirp
+324 verbose url raw rimraf
+325 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+326 verbose url resolved https://registry.npmjs.org/rimraf
+327 info trying registry request attempt 1 at 20:52:39
+328 verbose etag "V1GB7VJKBGZHUQN1QPWAVDOK"
+329 http GET https://registry.npmjs.org/rimraf
+330 verbose url raw ncp
+331 verbose url resolving [ 'https://registry.npmjs.org/', './ncp' ]
+332 verbose url resolved https://registry.npmjs.org/ncp
+333 info trying registry request attempt 1 at 20:52:39
+334 verbose etag "6B9K1B8BNSS20S3IF2VNTDJR9"
+335 http GET https://registry.npmjs.org/ncp
+336 verbose url raw kew
+337 verbose url resolving [ 'https://registry.npmjs.org/', './kew' ]
+338 verbose url resolved https://registry.npmjs.org/kew
+339 info trying registry request attempt 1 at 20:52:39
+340 verbose etag "CMCR0DN0V51SE1JK3YGSH3UPO"
+341 http GET https://registry.npmjs.org/kew
+342 silly lockFile 5564b31d--gitbook-pdf-node-modules-lodash tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+343 silly lockFile 5564b31d--gitbook-pdf-node-modules-lodash tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+344 silly lockFile adb6e0b6-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+345 silly lockFile adb6e0b6-m-cache-lodash-2-4-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\lodash\2.4.1\package.tgz
+346 info preinstall lodash@2.4.1
+347 verbose readDependencies using package.json deps
+348 verbose readDependencies using package.json deps
+349 silly resolved []
+350 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+351 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\lodash
+352 verbose linkStuff [ true,
+352 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+352 verbose linkStuff   false,
+352 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+353 info linkStuff lodash@2.4.1
+354 verbose linkBins lodash@2.4.1
+355 verbose linkMans lodash@2.4.1
+356 verbose rebuildBundles lodash@2.4.1
+357 info install lodash@2.4.1
+358 info postinstall lodash@2.4.1
+359 verbose url raw which
+360 verbose url resolving [ 'https://registry.npmjs.org/', './which' ]
+361 verbose url resolved https://registry.npmjs.org/which
+362 info trying registry request attempt 1 at 20:52:39
+363 verbose etag "120NFT01U2TUD96TEVT782NG7"
+364 http GET https://registry.npmjs.org/which
+365 verbose url raw npmconf
+366 verbose url resolving [ 'https://registry.npmjs.org/', './npmconf' ]
+367 verbose url resolved https://registry.npmjs.org/npmconf
+368 info trying registry request attempt 1 at 20:52:39
+369 verbose etag "BCJGZTO6DWJS3OL63R8VZG32S"
+370 http GET https://registry.npmjs.org/npmconf
+371 verbose url raw adm-zip
+372 verbose url resolving [ 'https://registry.npmjs.org/', './adm-zip' ]
+373 verbose url resolved https://registry.npmjs.org/adm-zip
+374 info trying registry request attempt 1 at 20:52:39
+375 verbose etag "AAB8O4XDJLTFC1LEIVD3MQ62J"
+376 http GET https://registry.npmjs.org/adm-zip
+377 http 304 https://registry.npmjs.org/rimraf
+378 silly registry.get cb [ 304,
+378 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+378 silly registry.get     via: '1.1 varnish',
+378 silly registry.get     'cache-control': 'max-age=60',
+378 silly registry.get     etag: '"V1GB7VJKBGZHUQN1QPWAVDOK"',
+378 silly registry.get     age: '49',
+378 silly registry.get     connection: 'keep-alive',
+378 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+378 silly registry.get     'x-cache': 'HIT',
+378 silly registry.get     'x-cache-hits': '4',
+378 silly registry.get     'x-timer': 'S1449355950.210090,VS0,VE0',
+378 silly registry.get     vary: 'Accept' } ]
+379 verbose etag rimraf from cache
+380 http 304 https://registry.npmjs.org/mkdirp
+381 silly registry.get cb [ 304,
+381 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+381 silly registry.get     via: '1.1 varnish',
+381 silly registry.get     'cache-control': 'max-age=60',
+381 silly registry.get     etag: '"1ZHW085S0QITZK1N5T1CK63KQ"',
+381 silly registry.get     age: '35',
+381 silly registry.get     connection: 'keep-alive',
+381 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+381 silly registry.get     'x-cache': 'HIT',
+381 silly registry.get     'x-cache-hits': '2',
+381 silly registry.get     'x-timer': 'S1449355950.232845,VS0,VE0',
+381 silly registry.get     vary: 'Accept' } ]
+382 verbose etag mkdirp from cache
+383 http 304 https://registry.npmjs.org/ncp
+384 silly registry.get cb [ 304,
+384 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+384 silly registry.get     via: '1.1 varnish',
+384 silly registry.get     'cache-control': 'max-age=60',
+384 silly registry.get     etag: '"6B9K1B8BNSS20S3IF2VNTDJR9"',
+384 silly registry.get     age: '2',
+384 silly registry.get     connection: 'keep-alive',
+384 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+384 silly registry.get     'x-cache': 'HIT',
+384 silly registry.get     'x-cache-hits': '1',
+384 silly registry.get     'x-timer': 'S1449355950.251985,VS0,VE0',
+384 silly registry.get     vary: 'Accept' } ]
+385 verbose etag ncp from cache
+386 http 304 https://registry.npmjs.org/which
+387 silly registry.get cb [ 304,
+387 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+387 silly registry.get     via: '1.1 varnish',
+387 silly registry.get     'cache-control': 'max-age=60',
+387 silly registry.get     etag: '"120NFT01U2TUD96TEVT782NG7"',
+387 silly registry.get     age: '58',
+387 silly registry.get     connection: 'keep-alive',
+387 silly registry.get     'x-served-by': 'cache-atl6228-ATL',
+387 silly registry.get     'x-cache': 'HIT',
+387 silly registry.get     'x-cache-hits': '1',
+387 silly registry.get     'x-timer': 'S1449355950.291647,VS0,VE0',
+387 silly registry.get     vary: 'Accept' } ]
+388 verbose etag which from cache
+389 http 304 https://registry.npmjs.org/kew
+390 silly registry.get cb [ 304,
+390 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+390 silly registry.get     via: '1.1 varnish',
+390 silly registry.get     'cache-control': 'max-age=60',
+390 silly registry.get     etag: '"CMCR0DN0V51SE1JK3YGSH3UPO"',
+390 silly registry.get     age: '36',
+390 silly registry.get     connection: 'keep-alive',
+390 silly registry.get     'x-served-by': 'cache-atl6223-ATL',
+390 silly registry.get     'x-cache': 'HIT',
+390 silly registry.get     'x-cache-hits': '1',
+390 silly registry.get     'x-timer': 'S1449355950.368607,VS0,VE0',
+390 silly registry.get     vary: 'Accept' } ]
+391 verbose etag kew from cache
+392 http 304 https://registry.npmjs.org/npmconf
+393 silly registry.get cb [ 304,
+393 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+393 silly registry.get     via: '1.1 varnish',
+393 silly registry.get     'cache-control': 'max-age=60',
+393 silly registry.get     etag: '"BCJGZTO6DWJS3OL63R8VZG32S"',
+393 silly registry.get     age: '42',
+393 silly registry.get     connection: 'keep-alive',
+393 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+393 silly registry.get     'x-cache': 'HIT',
+393 silly registry.get     'x-cache-hits': '1',
+393 silly registry.get     'x-timer': 'S1449355950.375375,VS0,VE0',
+393 silly registry.get     vary: 'Accept' } ]
+394 verbose etag npmconf from cache
+395 http 304 https://registry.npmjs.org/adm-zip
+396 silly registry.get cb [ 304,
+396 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:30 GMT',
+396 silly registry.get     via: '1.1 varnish',
+396 silly registry.get     'cache-control': 'max-age=60',
+396 silly registry.get     etag: '"AAB8O4XDJLTFC1LEIVD3MQ62J"',
+396 silly registry.get     age: '51',
+396 silly registry.get     connection: 'keep-alive',
+396 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+396 silly registry.get     'x-cache': 'HIT',
+396 silly registry.get     'x-cache-hits': '1',
+396 silly registry.get     'x-timer': 'S1449355950.406941,VS0,VE0',
+396 silly registry.get     vary: 'Accept' } ]
+397 verbose etag adm-zip from cache
+398 silly addNameRange number 2 { name: 'which', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+399 silly addNameRange versions [ 'which',
+399 silly addNameRange   [ '1.0.0',
+399 silly addNameRange     '1.0.1',
+399 silly addNameRange     '1.0.2',
+399 silly addNameRange     '1.0.3',
+399 silly addNameRange     '1.0.5',
+399 silly addNameRange     '1.0.6',
+399 silly addNameRange     '1.0.7',
+399 silly addNameRange     '1.0.8',
+399 silly addNameRange     '1.0.9',
+399 silly addNameRange     '1.1.0',
+399 silly addNameRange     '1.1.1',
+399 silly addNameRange     '1.1.2',
+399 silly addNameRange     '1.2.0' ] ]
+400 verbose addNamed [ 'which', '1.0.9' ]
+401 verbose addNamed [ '1.0.9', '1.0.9' ]
+402 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+403 verbose lock which@1.0.9 C:\Users\raul\AppData\Roaming\npm-cache\83832c1c-which-1-0-9.lock
+404 silly addNameRange number 2 { name: 'rimraf', range: '>=2.2.2-0 <2.3.0-0', hasData: true }
+405 silly addNameRange versions [ 'rimraf',
+405 silly addNameRange   [ '1.0.0',
+405 silly addNameRange     '1.0.1',
+405 silly addNameRange     '1.0.2',
+405 silly addNameRange     '1.0.4',
+405 silly addNameRange     '1.0.5',
+405 silly addNameRange     '1.0.6',
+405 silly addNameRange     '1.0.7',
+405 silly addNameRange     '1.0.8',
+405 silly addNameRange     '1.0.9',
+405 silly addNameRange     '2.0.0',
+405 silly addNameRange     '2.0.1',
+405 silly addNameRange     '2.0.2',
+405 silly addNameRange     '2.0.3',
+405 silly addNameRange     '2.1.0',
+405 silly addNameRange     '2.1.1',
+405 silly addNameRange     '2.1.2',
+405 silly addNameRange     '2.1.3',
+405 silly addNameRange     '2.1.4',
+405 silly addNameRange     '2.2.0',
+405 silly addNameRange     '2.2.1',
+405 silly addNameRange     '2.2.2',
+405 silly addNameRange     '2.2.3',
+405 silly addNameRange     '2.2.4',
+405 silly addNameRange     '2.2.5',
+405 silly addNameRange     '2.2.6',
+405 silly addNameRange     '2.2.8',
+405 silly addNameRange     '2.3.0',
+405 silly addNameRange     '2.3.1',
+405 silly addNameRange     '2.3.2',
+405 silly addNameRange     '2.3.3',
+405 silly addNameRange     '2.3.4',
+405 silly addNameRange     '2.4.0',
+405 silly addNameRange     '2.4.1',
+405 silly addNameRange     '2.4.2',
+405 silly addNameRange     '2.4.3',
+405 silly addNameRange     '2.4.4' ] ]
+406 verbose addNamed [ 'rimraf', '2.2.8' ]
+407 verbose addNamed [ '2.2.8', '2.2.8' ]
+408 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+409 verbose lock rimraf@2.2.8 C:\Users\raul\AppData\Roaming\npm-cache\b87241a4-rimraf-2-2-8.lock
+410 silly addNameRange number 2 { name: 'kew', range: '>=0.1.7-0 <0.2.0-0', hasData: true }
+411 silly addNameRange versions [ 'kew',
+411 silly addNameRange   [ '0.0.1',
+411 silly addNameRange     '0.0.2',
+411 silly addNameRange     '0.0.3',
+411 silly addNameRange     '0.0.4',
+411 silly addNameRange     '0.1.0',
+411 silly addNameRange     '0.1.1',
+411 silly addNameRange     '0.1.2',
+411 silly addNameRange     '0.1.3',
+411 silly addNameRange     '0.1.4',
+411 silly addNameRange     '0.1.5',
+411 silly addNameRange     '0.1.6',
+411 silly addNameRange     '0.1.7',
+411 silly addNameRange     '0.2.1',
+411 silly addNameRange     '0.2.2',
+411 silly addNameRange     '0.3.0',
+411 silly addNameRange     '0.3.1',
+411 silly addNameRange     '0.3.2',
+411 silly addNameRange     '0.3.3',
+411 silly addNameRange     '0.3.4',
+411 silly addNameRange     '0.4.0',
+411 silly addNameRange     '0.5.0-alpha',
+411 silly addNameRange     '0.5.0-alpha.1',
+411 silly addNameRange     '0.5.0',
+411 silly addNameRange     '0.6.0',
+411 silly addNameRange     '0.7.0' ] ]
+412 verbose addNamed [ 'kew', '0.1.7' ]
+413 verbose addNamed [ '0.1.7', '0.1.7' ]
+414 silly lockFile 69cee516-kew-0-1-7 kew@0.1.7
+415 verbose lock kew@0.1.7 C:\Users\raul\AppData\Roaming\npm-cache\69cee516-kew-0-1-7.lock
+416 silly lockFile af02651e-npmconf-0-0-24 npmconf@0.0.24
+417 silly lockFile af02651e-npmconf-0-0-24 npmconf@0.0.24
+418 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+419 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+420 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+421 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+422 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+423 silly lockFile 83832c1c-which-1-0-9 which@1.0.9
+424 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+425 silly lockFile d158d65e-which-1-0-5 which@~1.0.5
+426 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+427 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+428 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+429 silly lockFile b87241a4-rimraf-2-2-8 rimraf@2.2.8
+430 silly lockFile 6c46433c-rimraf-2-2-2 rimraf@~2.2.2
+431 silly lockFile 6c46433c-rimraf-2-2-2 rimraf@~2.2.2
+432 silly lockFile 69cee516-kew-0-1-7 kew@0.1.7
+433 silly lockFile 69cee516-kew-0-1-7 kew@0.1.7
+434 silly lockFile fbc33e87-kew-0-1-7 kew@~0.1.7
+435 silly lockFile fbc33e87-kew-0-1-7 kew@~0.1.7
+436 silly resolved [ { name: 'npmconf',
+436 silly resolved     version: '0.0.24',
+436 silly resolved     description: 'The config thing npm uses',
+436 silly resolved     main: 'npmconf.js',
+436 silly resolved     directories: { test: 'test' },
+436 silly resolved     dependencies:
+436 silly resolved      { 'config-chain': '~1.1.1',
+436 silly resolved        inherits: '~1.0.0',
+436 silly resolved        once: '~1.1.1',
+436 silly resolved        mkdirp: '~0.3.3',
+436 silly resolved        osenv: '0.0.3',
+436 silly resolved        nopt: '2',
+436 silly resolved        semver: '~1.1.0',
+436 silly resolved        ini: '~1.1.0' },
+436 silly resolved     devDependencies: {},
+436 silly resolved     scripts: { test: 'tap test/*.js' },
+436 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npmconf' },
+436 silly resolved     keywords: [ 'npm', 'config', 'config-chain', 'conf', 'ini' ],
+436 silly resolved     author:
+436 silly resolved      { name: 'Isaac Z. Schlueter',
+436 silly resolved        email: 'i@izs.me',
+436 silly resolved        url: 'http://blog.izs.me' },
+436 silly resolved     license: 'BSD',
+436 silly resolved     _id: 'npmconf@0.0.24',
+436 silly resolved     dist:
+436 silly resolved      { shasum: 'b78875b088ccc3c0afa3eceb3ce3244b1b52390c',
+436 silly resolved        tarball: 'http://registry.npmjs.org/npmconf/-/npmconf-0.0.24.tgz' },
+436 silly resolved     _from: 'npmconf@0.0.24',
+436 silly resolved     _npmVersion: '1.2.18',
+436 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     _shasum: 'b78875b088ccc3c0afa3eceb3ce3244b1b52390c',
+436 silly resolved     _resolved: 'https://registry.npmjs.org/npmconf/-/npmconf-0.0.24.tgz',
+436 silly resolved     bugs: { url: 'https://github.com/isaacs/npmconf/issues' },
+436 silly resolved     readme: 'ERROR: No README data found!',
+436 silly resolved     homepage: 'https://github.com/isaacs/npmconf' },
+436 silly resolved   { name: 'ncp',
+436 silly resolved     version: '0.4.2',
+436 silly resolved     author: { name: 'AvianFlu', email: 'charlie@charlieistheman.com' },
+436 silly resolved     description: 'Asynchronous recursive file copy utility.',
+436 silly resolved     bin: { ncp: './bin/ncp' },
+436 silly resolved     devDependencies: { vows: '0.6.x', rimraf: '1.0.x', 'read-dir-files': '0.0.x' },
+436 silly resolved     main: './lib/ncp.js',
+436 silly resolved     repository: { type: 'git', url: 'https://github.com/AvianFlu/ncp.git' },
+436 silly resolved     keywords: [ 'cli', 'copy' ],
+436 silly resolved     license: 'MIT',
+436 silly resolved     engine: { node: '>=0.4' },
+436 silly resolved     scripts: { test: 'vows --isolate --spec' },
+436 silly resolved     _id: 'ncp@0.4.2',
+436 silly resolved     dist:
+436 silly resolved      { shasum: 'abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574',
+436 silly resolved        tarball: 'http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz' },
+436 silly resolved     _from: 'ncp@0.4.2',
+436 silly resolved     _npmVersion: '1.2.2',
+436 silly resolved     _npmUser: { name: 'avianflu', email: 'charlie@charlieistheman.com' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     directories: {},
+436 silly resolved     _shasum: 'abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574',
+436 silly resolved     _resolved: 'https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz',
+436 silly resolved     bugs: { url: 'https://github.com/AvianFlu/ncp/issues' },
+436 silly resolved     readme: 'ERROR: No README data found!',
+436 silly resolved     homepage: 'https://github.com/AvianFlu/ncp' },
+436 silly resolved   { name: 'adm-zip',
+436 silly resolved     version: '0.2.1',
+436 silly resolved     description: 'A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk',
+436 silly resolved     keywords: [ 'zip', 'methods', 'archive', 'unzip' ],
+436 silly resolved     homepage: 'http://github.com/cthackers/adm-zip',
+436 silly resolved     author:
+436 silly resolved      { name: 'Nasca Iacob',
+436 silly resolved        email: 'sy@another-d-mention.ro',
+436 silly resolved        url: 'https://github.com/cthackers' },
+436 silly resolved     bugs:
+436 silly resolved      { url: 'https://github.com/cthackers/adm-zip/issues',
+436 silly resolved        email: 'sy@another-d-mention.ro' },
+436 silly resolved     licenses: [ [Object] ],
+436 silly resolved     main: 'adm-zip.js',
+436 silly resolved     repository:
+436 silly resolved      { type: 'git',
+436 silly resolved        url: 'git://github.com/git@github.com:cthackers/adm-zip.git' },
+436 silly resolved     engines: { node: '>=0.3.0' },
+436 silly resolved     _id: 'adm-zip@0.2.1',
+436 silly resolved     dist:
+436 silly resolved      { shasum: 'e801cedeb5bd9a4e98d699c5c0f4239e2731dcbf',
+436 silly resolved        tarball: 'http://registry.npmjs.org/adm-zip/-/adm-zip-0.2.1.tgz' },
+436 silly resolved     _npmVersion: '1.2.0',
+436 silly resolved     _npmUser: { name: 'cthackers', email: 'sy@another-d-mention.ro' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     directories: {},
+436 silly resolved     _shasum: 'e801cedeb5bd9a4e98d699c5c0f4239e2731dcbf',
+436 silly resolved     _from: 'adm-zip@0.2.1',
+436 silly resolved     _resolved: 'https://registry.npmjs.org/adm-zip/-/adm-zip-0.2.1.tgz',
+436 silly resolved     readme: 'ERROR: No README data found!' },
+436 silly resolved   { author:
+436 silly resolved      { name: 'Isaac Z. Schlueter',
+436 silly resolved        email: 'i@izs.me',
+436 silly resolved        url: 'http://blog.izs.me' },
+436 silly resolved     name: 'which',
+436 silly resolved     description: 'Like which(1) unix command. Find the first instance of an executable in the PATH.',
+436 silly resolved     version: '1.0.9',
+436 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-which.git' },
+436 silly resolved     main: 'which.js',
+436 silly resolved     bin: { which: './bin/which' },
+436 silly resolved     license: 'ISC',
+436 silly resolved     gitHead: 'df3d52a0ecd5f366d550e0f14d67ca4d5e621bad',
+436 silly resolved     bugs: { url: 'https://github.com/isaacs/node-which/issues' },
+436 silly resolved     homepage: 'https://github.com/isaacs/node-which',
+436 silly resolved     _id: 'which@1.0.9',
+436 silly resolved     scripts: {},
+436 silly resolved     _shasum: '460c1da0f810103d0321a9b633af9e575e64486f',
+436 silly resolved     _from: 'which@~1.0.5',
+436 silly resolved     _npmVersion: '2.6.0',
+436 silly resolved     _nodeVersion: '1.1.0',
+436 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     dist:
+436 silly resolved      { shasum: '460c1da0f810103d0321a9b633af9e575e64486f',
+436 silly resolved        tarball: 'http://registry.npmjs.org/which/-/which-1.0.9.tgz' },
+436 silly resolved     directories: {},
+436 silly resolved     _resolved: 'https://registry.npmjs.org/which/-/which-1.0.9.tgz',
+436 silly resolved     readme: 'ERROR: No README data found!' },
+436 silly resolved   { name: 'mkdirp',
+436 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+436 silly resolved     version: '0.3.5',
+436 silly resolved     author:
+436 silly resolved      { name: 'James Halliday',
+436 silly resolved        email: 'mail@substack.net',
+436 silly resolved        url: 'http://substack.net' },
+436 silly resolved     main: './index',
+436 silly resolved     keywords: [ 'mkdir', 'directory' ],
+436 silly resolved     repository:
+436 silly resolved      { type: 'git',
+436 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+436 silly resolved     scripts: { test: 'tap test/*.js' },
+436 silly resolved     devDependencies: { tap: '~0.4.0' },
+436 silly resolved     license: 'MIT',
+436 silly resolved     _id: 'mkdirp@0.3.5',
+436 silly resolved     dist:
+436 silly resolved      { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+436 silly resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' },
+436 silly resolved     _from: 'mkdirp@0.3.5',
+436 silly resolved     _npmVersion: '1.2.2',
+436 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     directories: {},
+436 silly resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+436 silly resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+436 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+436 silly resolved     readme: 'ERROR: No README data found!',
+436 silly resolved     homepage: 'https://github.com/substack/node-mkdirp' },
+436 silly resolved   { name: 'rimraf',
+436 silly resolved     version: '2.2.8',
+436 silly resolved     main: 'rimraf.js',
+436 silly resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+436 silly resolved     author:
+436 silly resolved      { name: 'Isaac Z. Schlueter',
+436 silly resolved        email: 'i@izs.me',
+436 silly resolved        url: 'http://blog.izs.me/' },
+436 silly resolved     license:
+436 silly resolved      { type: 'MIT',
+436 silly resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+436 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+436 silly resolved     scripts: { test: 'cd test && bash run.sh' },
+436 silly resolved     bin: { rimraf: './bin.js' },
+436 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+436 silly resolved     bugs: { url: 'https://github.com/isaacs/rimraf/issues' },
+436 silly resolved     homepage: 'https://github.com/isaacs/rimraf',
+436 silly resolved     _id: 'rimraf@2.2.8',
+436 silly resolved     _shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+436 silly resolved     _from: 'rimraf@~2.2.2',
+436 silly resolved     _npmVersion: '1.4.10',
+436 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     dist:
+436 silly resolved      { shasum: 'e439be2aaee327321952730f99a8929e4fc50582',
+436 silly resolved        tarball: 'http://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz' },
+436 silly resolved     directories: {},
+436 silly resolved     _resolved: 'https://registry.npmjs.org/rimraf/-/rimraf-2.2.8.tgz',
+436 silly resolved     readme: 'ERROR: No README data found!' },
+436 silly resolved   { name: 'kew',
+436 silly resolved     description: 'a lightweight promise library for node',
+436 silly resolved     version: '0.1.7',
+436 silly resolved     homepage: 'https://github.com/Obvious/kew',
+436 silly resolved     authors: [ 'Jeremy Stanley <github@azulus.com> (https://github.com/azulus)' ],
+436 silly resolved     contributors: [],
+436 silly resolved     keywords: [ 'kew', 'promises' ],
+436 silly resolved     main: './kew.js',
+436 silly resolved     repository: { type: 'git', url: 'https://github.com/Obvious/kew.git' },
+436 silly resolved     dependencies: {},
+436 silly resolved     devDependencies: { nodeunit: '0.7.4' },
+436 silly resolved     scripts: { test: './node_modules/nodeunit/bin/nodeunit test' },
+436 silly resolved     _id: 'kew@0.1.7',
+436 silly resolved     dist:
+436 silly resolved      { shasum: '0a32a817ff1a9b3b12b8c9bacf4bc4d679af8e72',
+436 silly resolved        tarball: 'http://registry.npmjs.org/kew/-/kew-0.1.7.tgz' },
+436 silly resolved     _from: 'kew@~0.1.7',
+436 silly resolved     _npmVersion: '1.2.18',
+436 silly resolved     _npmUser: { name: 'azulus', email: 'jeremy@obvious.com' },
+436 silly resolved     maintainers: [ [Object] ],
+436 silly resolved     directories: {},
+436 silly resolved     _shasum: '0a32a817ff1a9b3b12b8c9bacf4bc4d679af8e72',
+436 silly resolved     _resolved: 'https://registry.npmjs.org/kew/-/kew-0.1.7.tgz',
+436 silly resolved     bugs: { url: 'https://github.com/Obvious/kew/issues' },
+436 silly resolved     readme: 'ERROR: No README data found!' } ]
+437 info install npmconf@0.0.24 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+438 info install ncp@0.4.2 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+439 info install adm-zip@0.2.1 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+440 info install which@1.0.9 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+441 info install mkdirp@0.3.5 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+442 info install rimraf@2.2.8 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+443 info install kew@0.1.7 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+444 info installOne npmconf@0.0.24
+445 info installOne ncp@0.4.2
+446 info installOne adm-zip@0.2.1
+447 info installOne which@1.0.9
+448 info installOne mkdirp@0.3.5
+449 info installOne rimraf@2.2.8
+450 info installOne kew@0.1.7
+451 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf unbuild
+452 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp unbuild
+453 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip unbuild
+454 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which unbuild
+455 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp unbuild
+456 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf unbuild
+457 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew unbuild
+458 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz
+459 silly lockFile 011660c6-s-phantomjs-node-modules-npmconf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+460 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf C:\Users\raul\AppData\Roaming\npm-cache\011660c6-s-phantomjs-node-modules-npmconf.lock
+461 silly lockFile 296c6c32-cache-npmconf-0-0-24-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz
+462 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\296c6c32-cache-npmconf-0-0-24-package-tgz.lock
+463 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz
+464 silly lockFile c1f831ea-dules-phantomjs-node-modules-ncp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+465 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp C:\Users\raul\AppData\Roaming\npm-cache\c1f831ea-dules-phantomjs-node-modules-ncp.lock
+466 silly lockFile 226dcf1b--npm-cache-ncp-0-4-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz
+467 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\226dcf1b--npm-cache-ncp-0-4-2-package-tgz.lock
+468 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz
+469 silly lockFile 76185f0b-s-phantomjs-node-modules-adm-zip tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+470 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip C:\Users\raul\AppData\Roaming\npm-cache\76185f0b-s-phantomjs-node-modules-adm-zip.lock
+471 silly lockFile 578e3fad--cache-adm-zip-0-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz
+472 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\578e3fad--cache-adm-zip-0-2-1-package-tgz.lock
+473 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+474 silly lockFile 560a3192-les-phantomjs-node-modules-which tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+475 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which C:\Users\raul\AppData\Roaming\npm-cache\560a3192-les-phantomjs-node-modules-which.lock
+476 silly lockFile 1558b286-pm-cache-which-1-0-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+477 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\which\1.0.9\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\1558b286-pm-cache-which-1-0-9-package-tgz.lock
+478 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+479 silly lockFile a7e9d884-es-phantomjs-node-modules-mkdirp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+480 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp C:\Users\raul\AppData\Roaming\npm-cache\a7e9d884-es-phantomjs-node-modules-mkdirp.lock
+481 silly lockFile 7c29ff02-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+482 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\7c29ff02-m-cache-mkdirp-0-3-5-package-tgz.lock
+483 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz
+484 silly lockFile b3efe139-es-phantomjs-node-modules-rimraf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+485 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf C:\Users\raul\AppData\Roaming\npm-cache\b3efe139-es-phantomjs-node-modules-rimraf.lock
+486 silly lockFile ba5aac88-m-cache-rimraf-2-2-8-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz
+487 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\ba5aac88-m-cache-rimraf-2-2-8-package-tgz.lock
+488 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz
+489 silly lockFile 7205665f-dules-phantomjs-node-modules-kew tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+490 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew C:\Users\raul\AppData\Roaming\npm-cache\7205665f-dules-phantomjs-node-modules-kew.lock
+491 silly lockFile 5a049f45--npm-cache-kew-0-1-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz
+492 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\5a049f45--npm-cache-kew-0-1-7-package-tgz.lock
+493 silly gunzTarPerm modes [ '755', '644' ]
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 silly gunzTarPerm modes [ '755', '644' ]
+496 silly gunzTarPerm modes [ '755', '644' ]
+497 silly gunzTarPerm modes [ '755', '644' ]
+498 silly gunzTarPerm modes [ '755', '644' ]
+499 silly gunzTarPerm modes [ '755', '644' ]
+500 silly gunzTarPerm extractEntry package.json
+501 silly gunzTarPerm extractEntry package.json
+502 silly gunzTarPerm extractEntry README.md
+503 silly gunzTarPerm extractEntry LICENSE
+504 silly gunzTarPerm extractEntry .npmignore
+505 silly gunzTarPerm extractEntry README.md
+506 silly gunzTarPerm extractEntry which.js
+507 silly gunzTarPerm extractEntry bin/which
+508 silly gunzTarPerm extractEntry LICENSE
+509 silly gunzTarPerm extractEntry config-defs.js
+510 silly gunzTarPerm extractEntry npmconf.js
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm extractEntry .npmignore
+513 silly gunzTarPerm extractEntry README.md
+514 silly gunzTarPerm extractEntry test/00-setup.js
+515 silly gunzTarPerm extractEntry test/basic.js
+516 silly gunzTarPerm extractEntry .travis.yml
+517 silly gunzTarPerm extractEntry bin/ncp
+518 silly gunzTarPerm extractEntry lib/ncp.js
+519 silly gunzTarPerm extractEntry LICENSE.md
+520 silly lockFile 560a3192-les-phantomjs-node-modules-which tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+521 silly lockFile 560a3192-les-phantomjs-node-modules-which tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+522 silly lockFile 1558b286-pm-cache-which-1-0-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+523 silly lockFile 1558b286-pm-cache-which-1-0-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+524 info preinstall which@1.0.9
+525 silly gunzTarPerm extractEntry package.json
+526 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+527 verbose readDependencies using package.json deps
+528 verbose readDependencies using package.json deps
+529 silly resolved []
+530 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+531 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\which
+532 verbose linkStuff [ true,
+532 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+532 verbose linkStuff   false,
+532 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+533 info linkStuff which@1.0.9
+534 verbose linkBins which@1.0.9
+535 verbose link bins [ { which: './bin/which' },
+535 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+535 verbose link bins   false ]
+536 verbose linkMans which@1.0.9
+537 verbose rebuildBundles which@1.0.9
+538 silly gunzTarPerm extractEntry README.md
+539 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+540 silly gunzTarPerm extractEntry zipEntry.js
+541 silly gunzTarPerm modified mode [ 'zipEntry.js', 438, 420 ]
+542 silly gunzTarPerm extractEntry sandbox.js
+543 silly gunzTarPerm modified mode [ 'sandbox.js', 438, 420 ]
+544 silly gunzTarPerm extractEntry adm-zip.js
+545 silly gunzTarPerm modified mode [ 'adm-zip.js', 438, 420 ]
+546 info install which@1.0.9
+547 info postinstall which@1.0.9
+548 silly gunzTarPerm extractEntry zipFile.js
+549 silly gunzTarPerm modified mode [ 'zipFile.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry package.json
+551 silly gunzTarPerm extractEntry .npmignore
+552 silly gunzTarPerm extractEntry README.md
+553 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+554 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 438, 420 ]
+555 silly gunzTarPerm extractEntry methods/deflater.js
+556 silly gunzTarPerm modified mode [ 'methods/deflater.js', 438, 420 ]
+557 silly gunzTarPerm extractEntry kew.js
+558 silly gunzTarPerm extractEntry LICENSE.TXT
+559 silly gunzTarPerm extractEntry test/chain.js
+560 silly gunzTarPerm extractEntry test/context.js
+561 silly gunzTarPerm extractEntry test/defer.js
+562 silly gunzTarPerm extractEntry test/static.js
+563 silly gunzTarPerm extractEntry methods/index.js
+564 silly gunzTarPerm modified mode [ 'methods/index.js', 438, 420 ]
+565 silly gunzTarPerm extractEntry methods/inflater.js
+566 silly gunzTarPerm modified mode [ 'methods/inflater.js', 438, 420 ]
+567 silly gunzTarPerm extractEntry package.json
+568 silly gunzTarPerm extractEntry .npmignore
+569 silly gunzTarPerm extractEntry LICENSE
+570 silly gunzTarPerm extractEntry package.json
+571 silly gunzTarPerm extractEntry util/constants.js
+572 silly gunzTarPerm modified mode [ 'util/constants.js', 438, 420 ]
+573 silly gunzTarPerm extractEntry util/errors.js
+574 silly gunzTarPerm modified mode [ 'util/errors.js', 438, 420 ]
+575 silly gunzTarPerm extractEntry index.js
+576 silly gunzTarPerm extractEntry examples/pow.js
+577 silly gunzTarPerm extractEntry README.md
+578 silly gunzTarPerm extractEntry LICENSE
+579 silly gunzTarPerm extractEntry readme.markdown
+580 silly gunzTarPerm extractEntry test/perm.js
+581 silly gunzTarPerm extractEntry bin.js
+582 silly gunzTarPerm extractEntry rimraf.js
+583 silly gunzTarPerm extractEntry util/fattr.js
+584 silly gunzTarPerm modified mode [ 'util/fattr.js', 438, 420 ]
+585 silly gunzTarPerm extractEntry util/index.js
+586 silly gunzTarPerm modified mode [ 'util/index.js', 438, 420 ]
+587 silly gunzTarPerm extractEntry AUTHORS
+588 silly gunzTarPerm extractEntry test/test-async.js
+589 silly gunzTarPerm extractEntry test/perm_sync.js
+590 silly gunzTarPerm extractEntry test/race.js
+591 silly gunzTarPerm extractEntry util/utils.js
+592 silly gunzTarPerm modified mode [ 'util/utils.js', 438, 420 ]
+593 silly gunzTarPerm extractEntry headers/dataHeader.js
+594 silly gunzTarPerm modified mode [ 'headers/dataHeader.js', 438, 420 ]
+595 silly gunzTarPerm extractEntry test/ncp-test.js
+596 silly gunzTarPerm extractEntry test/fixtures/src/a
+597 silly gunzTarPerm extractEntry test/fixtures/src/b
+598 silly gunzTarPerm extractEntry test/fixtures/src/c
+599 silly gunzTarPerm extractEntry test/fixtures/src/d
+600 silly gunzTarPerm extractEntry test/fixtures/src/e
+601 silly gunzTarPerm extractEntry test/fixtures/src/f
+602 silly gunzTarPerm extractEntry test/fixtures/src/sub/a
+603 silly gunzTarPerm extractEntry test/fixtures/src/sub/b
+604 silly gunzTarPerm extractEntry test/test-sync.js
+605 silly gunzTarPerm extractEntry test/run.sh
+606 silly gunzTarPerm extractEntry test/builtin.js
+607 silly gunzTarPerm extractEntry test/save.js
+608 silly gunzTarPerm extractEntry test/rel.js
+609 silly gunzTarPerm extractEntry headers/entryHeader.js
+610 silly gunzTarPerm modified mode [ 'headers/entryHeader.js', 438, 420 ]
+611 silly gunzTarPerm extractEntry headers/index.js
+612 silly gunzTarPerm modified mode [ 'headers/index.js', 438, 420 ]
+613 silly gunzTarPerm extractEntry test/setup.sh
+614 silly gunzTarPerm extractEntry test/return.js
+615 silly gunzTarPerm extractEntry test/clobber.js
+616 silly gunzTarPerm extractEntry headers/mainHeader.js
+617 silly gunzTarPerm modified mode [ 'headers/mainHeader.js', 438, 420 ]
+618 silly gunzTarPerm extractEntry .travis.yml
+619 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+620 silly gunzTarPerm extractEntry test/fixtures/builtin
+621 silly gunzTarPerm extractEntry test/fixtures/globalconfig
+622 silly gunzTarPerm extractEntry test/root.js
+623 silly gunzTarPerm extractEntry test/umask.js
+624 silly lockFile 7205665f-dules-phantomjs-node-modules-kew tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+625 silly lockFile 7205665f-dules-phantomjs-node-modules-kew tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+626 silly lockFile 5a049f45--npm-cache-kew-0-1-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz
+627 silly lockFile 5a049f45--npm-cache-kew-0-1-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\kew\0.1.7\package.tgz
+628 silly gunzTarPerm extractEntry test/sync.js
+629 silly gunzTarPerm extractEntry test/chmod.js
+630 silly gunzTarPerm extractEntry test/fixtures/userconfig
+631 info preinstall kew@0.1.7
+632 verbose readDependencies using package.json deps
+633 verbose readDependencies using package.json deps
+634 silly resolved []
+635 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+636 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\kew
+637 verbose linkStuff [ true,
+637 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+637 verbose linkStuff   false,
+637 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+638 info linkStuff kew@0.1.7
+639 verbose linkBins kew@0.1.7
+640 verbose linkMans kew@0.1.7
+641 verbose rebuildBundles kew@0.1.7
+642 info install kew@0.1.7
+643 info postinstall kew@0.1.7
+644 silly gunzTarPerm extractEntry test/umask_sync.js
+645 silly gunzTarPerm extractEntry test/return_sync.js
+646 silly gunzTarPerm extractEntry test/mkdirp.js
+647 silly gunzTarPerm extractEntry .travis.yml
+648 silly lockFile b3efe139-es-phantomjs-node-modules-rimraf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+649 silly lockFile b3efe139-es-phantomjs-node-modules-rimraf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+650 silly lockFile ba5aac88-m-cache-rimraf-2-2-8-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz
+651 silly lockFile ba5aac88-m-cache-rimraf-2-2-8-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\rimraf\2.2.8\package.tgz
+652 info preinstall rimraf@2.2.8
+653 verbose readDependencies using package.json deps
+654 verbose readDependencies using package.json deps
+655 silly resolved []
+656 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+657 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\rimraf
+658 verbose linkStuff [ true,
+658 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+658 verbose linkStuff   false,
+658 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+659 info linkStuff rimraf@2.2.8
+660 verbose linkBins rimraf@2.2.8
+661 verbose link bins [ { rimraf: './bin.js' },
+661 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+661 verbose link bins   false ]
+662 verbose linkMans rimraf@2.2.8
+663 verbose rebuildBundles rimraf@2.2.8
+664 info install rimraf@2.2.8
+665 info postinstall rimraf@2.2.8
+666 silly lockFile 011660c6-s-phantomjs-node-modules-npmconf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+667 silly lockFile 011660c6-s-phantomjs-node-modules-npmconf tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+668 silly lockFile 296c6c32-cache-npmconf-0-0-24-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz
+669 silly lockFile 296c6c32-cache-npmconf-0-0-24-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\npmconf\0.0.24\package.tgz
+670 info preinstall npmconf@0.0.24
+671 verbose readDependencies using package.json deps
+672 verbose readDependencies using package.json deps
+673 silly lockFile c1f831ea-dules-phantomjs-node-modules-ncp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+674 silly lockFile c1f831ea-dules-phantomjs-node-modules-ncp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+675 silly lockFile 226dcf1b--npm-cache-ncp-0-4-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz
+676 silly lockFile 226dcf1b--npm-cache-ncp-0-4-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ncp\0.4.2\package.tgz
+677 info preinstall ncp@0.4.2
+678 silly lockFile 76185f0b-s-phantomjs-node-modules-adm-zip tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+679 silly lockFile 76185f0b-s-phantomjs-node-modules-adm-zip tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+680 verbose readDependencies using package.json deps
+681 silly lockFile 578e3fad--cache-adm-zip-0-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz
+682 silly lockFile 578e3fad--cache-adm-zip-0-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\adm-zip\0.2.1\package.tgz
+683 verbose readDependencies using package.json deps
+684 silly resolved []
+685 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+686 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\ncp
+687 verbose linkStuff [ true,
+687 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+687 verbose linkStuff   false,
+687 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+688 info linkStuff ncp@0.4.2
+689 verbose linkBins ncp@0.4.2
+690 verbose link bins [ { ncp: './bin/ncp' },
+690 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\.bin',
+690 verbose link bins   false ]
+691 verbose linkMans ncp@0.4.2
+692 verbose rebuildBundles ncp@0.4.2
+693 info preinstall adm-zip@0.2.1
+694 verbose cache add [ 'config-chain@~1.1.1', null ]
+695 verbose cache add name=undefined spec="config-chain@~1.1.1" args=["config-chain@~1.1.1",null]
+696 verbose parsed url { protocol: null,
+696 verbose parsed url   slashes: null,
+696 verbose parsed url   auth: null,
+696 verbose parsed url   host: null,
+696 verbose parsed url   port: null,
+696 verbose parsed url   hostname: null,
+696 verbose parsed url   hash: null,
+696 verbose parsed url   search: null,
+696 verbose parsed url   query: null,
+696 verbose parsed url   pathname: 'config-chain@~1.1.1',
+696 verbose parsed url   path: 'config-chain@~1.1.1',
+696 verbose parsed url   href: 'config-chain@~1.1.1' }
+697 verbose cache add [ 'inherits@~1.0.0', null ]
+698 verbose cache add name=undefined spec="inherits@~1.0.0" args=["inherits@~1.0.0",null]
+699 verbose parsed url { protocol: null,
+699 verbose parsed url   slashes: null,
+699 verbose parsed url   auth: null,
+699 verbose parsed url   host: null,
+699 verbose parsed url   port: null,
+699 verbose parsed url   hostname: null,
+699 verbose parsed url   hash: null,
+699 verbose parsed url   search: null,
+699 verbose parsed url   query: null,
+699 verbose parsed url   pathname: 'inherits@~1.0.0',
+699 verbose parsed url   path: 'inherits@~1.0.0',
+699 verbose parsed url   href: 'inherits@~1.0.0' }
+700 verbose cache add [ 'once@~1.1.1', null ]
+701 verbose cache add name=undefined spec="once@~1.1.1" args=["once@~1.1.1",null]
+702 verbose parsed url { protocol: null,
+702 verbose parsed url   slashes: null,
+702 verbose parsed url   auth: null,
+702 verbose parsed url   host: null,
+702 verbose parsed url   port: null,
+702 verbose parsed url   hostname: null,
+702 verbose parsed url   hash: null,
+702 verbose parsed url   search: null,
+702 verbose parsed url   query: null,
+702 verbose parsed url   pathname: 'once@~1.1.1',
+702 verbose parsed url   path: 'once@~1.1.1',
+702 verbose parsed url   href: 'once@~1.1.1' }
+703 verbose cache add [ 'osenv@0.0.3', null ]
+704 verbose cache add name=undefined spec="osenv@0.0.3" args=["osenv@0.0.3",null]
+705 verbose parsed url { protocol: null,
+705 verbose parsed url   slashes: null,
+705 verbose parsed url   auth: null,
+705 verbose parsed url   host: null,
+705 verbose parsed url   port: null,
+705 verbose parsed url   hostname: null,
+705 verbose parsed url   hash: null,
+705 verbose parsed url   search: null,
+705 verbose parsed url   query: null,
+705 verbose parsed url   pathname: 'osenv@0.0.3',
+705 verbose parsed url   path: 'osenv@0.0.3',
+705 verbose parsed url   href: 'osenv@0.0.3' }
+706 verbose cache add [ 'nopt@2', null ]
+707 verbose cache add name=undefined spec="nopt@2" args=["nopt@2",null]
+708 verbose parsed url { protocol: null,
+708 verbose parsed url   slashes: null,
+708 verbose parsed url   auth: null,
+708 verbose parsed url   host: null,
+708 verbose parsed url   port: null,
+708 verbose parsed url   hostname: null,
+708 verbose parsed url   hash: null,
+708 verbose parsed url   search: null,
+708 verbose parsed url   query: null,
+708 verbose parsed url   pathname: 'nopt@2',
+708 verbose parsed url   path: 'nopt@2',
+708 verbose parsed url   href: 'nopt@2' }
+709 verbose cache add [ 'semver@~1.1.0', null ]
+710 verbose cache add name=undefined spec="semver@~1.1.0" args=["semver@~1.1.0",null]
+711 verbose parsed url { protocol: null,
+711 verbose parsed url   slashes: null,
+711 verbose parsed url   auth: null,
+711 verbose parsed url   host: null,
+711 verbose parsed url   port: null,
+711 verbose parsed url   hostname: null,
+711 verbose parsed url   hash: null,
+711 verbose parsed url   search: null,
+711 verbose parsed url   query: null,
+711 verbose parsed url   pathname: 'semver@~1.1.0',
+711 verbose parsed url   path: 'semver@~1.1.0',
+711 verbose parsed url   href: 'semver@~1.1.0' }
+712 verbose cache add [ 'ini@~1.1.0', null ]
+713 verbose cache add name=undefined spec="ini@~1.1.0" args=["ini@~1.1.0",null]
+714 verbose parsed url { protocol: null,
+714 verbose parsed url   slashes: null,
+714 verbose parsed url   auth: null,
+714 verbose parsed url   host: null,
+714 verbose parsed url   port: null,
+714 verbose parsed url   hostname: null,
+714 verbose parsed url   hash: null,
+714 verbose parsed url   search: null,
+714 verbose parsed url   query: null,
+714 verbose parsed url   pathname: 'ini@~1.1.0',
+714 verbose parsed url   path: 'ini@~1.1.0',
+714 verbose parsed url   href: 'ini@~1.1.0' }
+715 verbose cache add name="config-chain" spec="~1.1.1" args=["config-chain","~1.1.1"]
+716 verbose parsed url { protocol: null,
+716 verbose parsed url   slashes: null,
+716 verbose parsed url   auth: null,
+716 verbose parsed url   host: null,
+716 verbose parsed url   port: null,
+716 verbose parsed url   hostname: null,
+716 verbose parsed url   hash: null,
+716 verbose parsed url   search: null,
+716 verbose parsed url   query: null,
+716 verbose parsed url   pathname: '~1.1.1',
+716 verbose parsed url   path: '~1.1.1',
+716 verbose parsed url   href: '~1.1.1' }
+717 verbose addNamed [ 'config-chain', '~1.1.1' ]
+718 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+719 silly lockFile b9689009-config-chain-1-1-1 config-chain@~1.1.1
+720 verbose lock config-chain@~1.1.1 C:\Users\raul\AppData\Roaming\npm-cache\b9689009-config-chain-1-1-1.lock
+721 verbose cache add name="inherits" spec="~1.0.0" args=["inherits","~1.0.0"]
+722 verbose parsed url { protocol: null,
+722 verbose parsed url   slashes: null,
+722 verbose parsed url   auth: null,
+722 verbose parsed url   host: null,
+722 verbose parsed url   port: null,
+722 verbose parsed url   hostname: null,
+722 verbose parsed url   hash: null,
+722 verbose parsed url   search: null,
+722 verbose parsed url   query: null,
+722 verbose parsed url   pathname: '~1.0.0',
+722 verbose parsed url   path: '~1.0.0',
+722 verbose parsed url   href: '~1.0.0' }
+723 verbose addNamed [ 'inherits', '~1.0.0' ]
+724 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+725 silly lockFile 9a68ae75-inherits-1-0-0 inherits@~1.0.0
+726 verbose lock inherits@~1.0.0 C:\Users\raul\AppData\Roaming\npm-cache\9a68ae75-inherits-1-0-0.lock
+727 verbose cache add name="once" spec="~1.1.1" args=["once","~1.1.1"]
+728 verbose parsed url { protocol: null,
+728 verbose parsed url   slashes: null,
+728 verbose parsed url   auth: null,
+728 verbose parsed url   host: null,
+728 verbose parsed url   port: null,
+728 verbose parsed url   hostname: null,
+728 verbose parsed url   hash: null,
+728 verbose parsed url   search: null,
+728 verbose parsed url   query: null,
+728 verbose parsed url   pathname: '~1.1.1',
+728 verbose parsed url   path: '~1.1.1',
+728 verbose parsed url   href: '~1.1.1' }
+729 verbose addNamed [ 'once', '~1.1.1' ]
+730 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+731 silly lockFile 062b4488-once-1-1-1 once@~1.1.1
+732 verbose lock once@~1.1.1 C:\Users\raul\AppData\Roaming\npm-cache\062b4488-once-1-1-1.lock
+733 verbose cache add name="osenv" spec="0.0.3" args=["osenv","0.0.3"]
+734 verbose parsed url { protocol: null,
+734 verbose parsed url   slashes: null,
+734 verbose parsed url   auth: null,
+734 verbose parsed url   host: null,
+734 verbose parsed url   port: null,
+734 verbose parsed url   hostname: null,
+734 verbose parsed url   hash: null,
+734 verbose parsed url   search: null,
+734 verbose parsed url   query: null,
+734 verbose parsed url   pathname: '0.0.3',
+734 verbose parsed url   path: '0.0.3',
+734 verbose parsed url   href: '0.0.3' }
+735 verbose addNamed [ 'osenv', '0.0.3' ]
+736 verbose addNamed [ '0.0.3', '0.0.3' ]
+737 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+738 verbose lock osenv@0.0.3 C:\Users\raul\AppData\Roaming\npm-cache\4085d016-osenv-0-0-3.lock
+739 verbose cache add name="nopt" spec="2" args=["nopt","2"]
+740 verbose parsed url { protocol: null,
+740 verbose parsed url   slashes: null,
+740 verbose parsed url   auth: null,
+740 verbose parsed url   host: null,
+740 verbose parsed url   port: null,
+740 verbose parsed url   hostname: null,
+740 verbose parsed url   hash: null,
+740 verbose parsed url   search: null,
+740 verbose parsed url   query: null,
+740 verbose parsed url   pathname: '2',
+740 verbose parsed url   path: '2',
+740 verbose parsed url   href: '2' }
+741 verbose addNamed [ 'nopt', '2' ]
+742 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+743 silly lockFile 64594a3f-nopt-2 nopt@2
+744 verbose lock nopt@2 C:\Users\raul\AppData\Roaming\npm-cache\64594a3f-nopt-2.lock
+745 verbose cache add name="semver" spec="~1.1.0" args=["semver","~1.1.0"]
+746 verbose parsed url { protocol: null,
+746 verbose parsed url   slashes: null,
+746 verbose parsed url   auth: null,
+746 verbose parsed url   host: null,
+746 verbose parsed url   port: null,
+746 verbose parsed url   hostname: null,
+746 verbose parsed url   hash: null,
+746 verbose parsed url   search: null,
+746 verbose parsed url   query: null,
+746 verbose parsed url   pathname: '~1.1.0',
+746 verbose parsed url   path: '~1.1.0',
+746 verbose parsed url   href: '~1.1.0' }
+747 verbose addNamed [ 'semver', '~1.1.0' ]
+748 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
+749 silly lockFile 384d7ac7-semver-1-1-0 semver@~1.1.0
+750 verbose lock semver@~1.1.0 C:\Users\raul\AppData\Roaming\npm-cache\384d7ac7-semver-1-1-0.lock
+751 verbose cache add name="ini" spec="~1.1.0" args=["ini","~1.1.0"]
+752 verbose parsed url { protocol: null,
+752 verbose parsed url   slashes: null,
+752 verbose parsed url   auth: null,
+752 verbose parsed url   host: null,
+752 verbose parsed url   port: null,
+752 verbose parsed url   hostname: null,
+752 verbose parsed url   hash: null,
+752 verbose parsed url   search: null,
+752 verbose parsed url   query: null,
+752 verbose parsed url   pathname: '~1.1.0',
+752 verbose parsed url   path: '~1.1.0',
+752 verbose parsed url   href: '~1.1.0' }
+753 verbose addNamed [ 'ini', '~1.1.0' ]
+754 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
+755 silly lockFile d6a0c59d-ini-1-1-0 ini@~1.1.0
+756 verbose lock ini@~1.1.0 C:\Users\raul\AppData\Roaming\npm-cache\d6a0c59d-ini-1-1-0.lock
+757 verbose readDependencies using package.json deps
+758 verbose readDependencies using package.json deps
+759 silly resolved []
+760 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+761 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\adm-zip
+762 verbose linkStuff [ true,
+762 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+762 verbose linkStuff   false,
+762 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+763 info linkStuff adm-zip@0.2.1
+764 silly addNameRange { name: 'inherits', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+765 silly addNameRange { name: 'config-chain',
+765 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+765 silly addNameRange   hasData: false }
+766 silly addNameRange { name: 'once', range: '>=1.1.1-0 <1.2.0-0', hasData: false }
+767 silly addNameRange { name: 'nopt', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+768 silly addNameRange { name: 'semver', range: '>=1.1.0-0 <1.2.0-0', hasData: false }
+769 verbose linkBins adm-zip@0.2.1
+770 verbose linkMans adm-zip@0.2.1
+771 verbose rebuildBundles adm-zip@0.2.1
+772 silly addNameRange { name: 'ini', range: '>=1.1.0-0 <1.2.0-0', hasData: false }
+773 info install adm-zip@0.2.1
+774 verbose url raw once
+775 verbose url resolving [ 'https://registry.npmjs.org/', './once' ]
+776 verbose url resolved https://registry.npmjs.org/once
+777 info trying registry request attempt 1 at 20:52:40
+778 verbose etag "4HLPOKRFA58ZSBJPEJ3GZTC4A"
+779 http GET https://registry.npmjs.org/once
+780 info postinstall adm-zip@0.2.1
+781 verbose url raw semver
+782 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+783 verbose url resolved https://registry.npmjs.org/semver
+784 info trying registry request attempt 1 at 20:52:40
+785 verbose etag "D22UXK1LMMJOH6D6TO4KAZZS4"
+786 http GET https://registry.npmjs.org/semver
+787 verbose url raw inherits
+788 verbose url resolving [ 'https://registry.npmjs.org/', './inherits' ]
+789 verbose url resolved https://registry.npmjs.org/inherits
+790 info trying registry request attempt 1 at 20:52:40
+791 verbose etag "4FJ6NZOHSPQG4XHIJ9FQBFUBG"
+792 http GET https://registry.npmjs.org/inherits
+793 info install ncp@0.4.2
+794 info postinstall ncp@0.4.2
+795 verbose url raw config-chain
+796 verbose url resolving [ 'https://registry.npmjs.org/', './config-chain' ]
+797 verbose url resolved https://registry.npmjs.org/config-chain
+798 info trying registry request attempt 1 at 20:52:40
+799 verbose etag "B6IE0Y7FZOKFW1039ZWQPMRTG"
+800 http GET https://registry.npmjs.org/config-chain
+801 silly lockFile a7e9d884-es-phantomjs-node-modules-mkdirp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+802 silly lockFile a7e9d884-es-phantomjs-node-modules-mkdirp tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+803 silly lockFile 7c29ff02-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+804 silly lockFile 7c29ff02-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+805 verbose url raw osenv
+806 verbose url resolving [ 'https://registry.npmjs.org/', './osenv' ]
+807 verbose url resolved https://registry.npmjs.org/osenv
+808 info trying registry request attempt 1 at 20:52:40
+809 verbose etag "5PEBCGQI27PB8P8C7TGV8M0K7"
+810 http GET https://registry.npmjs.org/osenv
+811 info preinstall mkdirp@0.3.5
+812 verbose readDependencies using package.json deps
+813 verbose readDependencies using package.json deps
+814 silly resolved []
+815 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+816 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\mkdirp
+817 verbose linkStuff [ true,
+817 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+817 verbose linkStuff   false,
+817 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+818 info linkStuff mkdirp@0.3.5
+819 verbose linkBins mkdirp@0.3.5
+820 verbose linkMans mkdirp@0.3.5
+821 verbose rebuildBundles mkdirp@0.3.5
+822 info install mkdirp@0.3.5
+823 info postinstall mkdirp@0.3.5
+824 verbose url raw nopt
+825 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+826 verbose url resolved https://registry.npmjs.org/nopt
+827 info trying registry request attempt 1 at 20:52:40
+828 verbose etag "5EF1QGW6L8ZEE22W4CM5Q7TQY"
+829 http GET https://registry.npmjs.org/nopt
+830 verbose url raw ini
+831 verbose url resolving [ 'https://registry.npmjs.org/', './ini' ]
+832 verbose url resolved https://registry.npmjs.org/ini
+833 info trying registry request attempt 1 at 20:52:40
+834 verbose etag "7OPNBVP66M41RBWPKKFI0XWX0"
+835 http GET https://registry.npmjs.org/ini
+836 http 304 https://registry.npmjs.org/inherits
+837 silly registry.get cb [ 304,
+837 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+837 silly registry.get     via: '1.1 varnish',
+837 silly registry.get     'cache-control': 'max-age=60',
+837 silly registry.get     etag: '"4FJ6NZOHSPQG4XHIJ9FQBFUBG"',
+837 silly registry.get     age: '3',
+837 silly registry.get     connection: 'keep-alive',
+837 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+837 silly registry.get     'x-cache': 'HIT',
+837 silly registry.get     'x-cache-hits': '1',
+837 silly registry.get     'x-timer': 'S1449355951.587236,VS0,VE0',
+837 silly registry.get     vary: 'Accept' } ]
+838 verbose etag inherits from cache
+839 silly addNameRange number 2 { name: 'inherits', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+840 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1', '1.0.1', '1.0.2' ] ]
+841 verbose addNamed [ 'inherits', '1.0.2' ]
+842 verbose addNamed [ '1.0.2', '1.0.2' ]
+843 silly lockFile 70c120f6-inherits-1-0-2 inherits@1.0.2
+844 verbose lock inherits@1.0.2 C:\Users\raul\AppData\Roaming\npm-cache\70c120f6-inherits-1-0-2.lock
+845 silly lockFile 70c120f6-inherits-1-0-2 inherits@1.0.2
+846 silly lockFile 70c120f6-inherits-1-0-2 inherits@1.0.2
+847 silly lockFile 9a68ae75-inherits-1-0-0 inherits@~1.0.0
+848 silly lockFile 9a68ae75-inherits-1-0-0 inherits@~1.0.0
+849 http 304 https://registry.npmjs.org/once
+850 silly registry.get cb [ 304,
+850 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+850 silly registry.get     via: '1.1 varnish',
+850 silly registry.get     'cache-control': 'max-age=60',
+850 silly registry.get     etag: '"4HLPOKRFA58ZSBJPEJ3GZTC4A"',
+850 silly registry.get     age: '14',
+850 silly registry.get     connection: 'keep-alive',
+850 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+850 silly registry.get     'x-cache': 'HIT',
+850 silly registry.get     'x-cache-hits': '92',
+850 silly registry.get     'x-timer': 'S1449355951.594703,VS0,VE0',
+850 silly registry.get     vary: 'Accept' } ]
+851 verbose etag once from cache
+852 silly addNameRange number 2 { name: 'once', range: '>=1.1.1-0 <1.2.0-0', hasData: true }
+853 silly addNameRange versions [ 'once',
+853 silly addNameRange   [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2', '1.3.3' ] ]
+854 verbose addNamed [ 'once', '1.1.1' ]
+855 verbose addNamed [ '1.1.1', '1.1.1' ]
+856 silly lockFile 6beab3c4-once-1-1-1 once@1.1.1
+857 verbose lock once@1.1.1 C:\Users\raul\AppData\Roaming\npm-cache\6beab3c4-once-1-1-1.lock
+858 silly lockFile 6beab3c4-once-1-1-1 once@1.1.1
+859 silly lockFile 6beab3c4-once-1-1-1 once@1.1.1
+860 silly lockFile 062b4488-once-1-1-1 once@~1.1.1
+861 silly lockFile 062b4488-once-1-1-1 once@~1.1.1
+862 http 304 https://registry.npmjs.org/config-chain
+863 silly registry.get cb [ 304,
+863 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+863 silly registry.get     via: '1.1 varnish',
+863 silly registry.get     'cache-control': 'max-age=60',
+863 silly registry.get     etag: '"B6IE0Y7FZOKFW1039ZWQPMRTG"',
+863 silly registry.get     age: '36',
+863 silly registry.get     connection: 'keep-alive',
+863 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+863 silly registry.get     'x-cache': 'HIT',
+863 silly registry.get     'x-cache-hits': '1',
+863 silly registry.get     'x-timer': 'S1449355951.668159,VS0,VE0',
+863 silly registry.get     vary: 'Accept' } ]
+864 verbose etag config-chain from cache
+865 silly addNameRange number 2 { name: 'config-chain',
+865 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+865 silly addNameRange   hasData: true }
+866 silly addNameRange versions [ 'config-chain',
+866 silly addNameRange   [ '0.1.0',
+866 silly addNameRange     '0.1.1',
+866 silly addNameRange     '0.2.0',
+866 silly addNameRange     '0.3.0',
+866 silly addNameRange     '0.3.1',
+866 silly addNameRange     '0.3.2',
+866 silly addNameRange     '0.3.3',
+866 silly addNameRange     '1.0.0',
+866 silly addNameRange     '1.0.1',
+866 silly addNameRange     '1.1.0',
+866 silly addNameRange     '1.1.1',
+866 silly addNameRange     '1.1.2',
+866 silly addNameRange     '1.1.3',
+866 silly addNameRange     '1.1.4',
+866 silly addNameRange     '1.1.5',
+866 silly addNameRange     '1.1.6',
+866 silly addNameRange     '0.3.4',
+866 silly addNameRange     '1.1.7',
+866 silly addNameRange     '1.1.8',
+866 silly addNameRange     '1.1.9' ] ]
+867 verbose addNamed [ 'config-chain', '1.1.9' ]
+868 verbose addNamed [ '1.1.9', '1.1.9' ]
+869 silly lockFile 66326a5e-config-chain-1-1-9 config-chain@1.1.9
+870 verbose lock config-chain@1.1.9 C:\Users\raul\AppData\Roaming\npm-cache\66326a5e-config-chain-1-1-9.lock
+871 silly lockFile 66326a5e-config-chain-1-1-9 config-chain@1.1.9
+872 silly lockFile 66326a5e-config-chain-1-1-9 config-chain@1.1.9
+873 silly lockFile b9689009-config-chain-1-1-1 config-chain@~1.1.1
+874 silly lockFile b9689009-config-chain-1-1-1 config-chain@~1.1.1
+875 http 304 https://registry.npmjs.org/semver
+876 silly registry.get cb [ 304,
+876 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+876 silly registry.get     via: '1.1 varnish',
+876 silly registry.get     'cache-control': 'max-age=60',
+876 silly registry.get     etag: '"D22UXK1LMMJOH6D6TO4KAZZS4"',
+876 silly registry.get     age: '10',
+876 silly registry.get     connection: 'keep-alive',
+876 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+876 silly registry.get     'x-cache': 'HIT',
+876 silly registry.get     'x-cache-hits': '1',
+876 silly registry.get     'x-timer': 'S1449355951.684950,VS0,VE0',
+876 silly registry.get     vary: 'Accept' } ]
+877 verbose etag semver from cache
+878 silly addNameRange number 2 { name: 'semver', range: '>=1.1.0-0 <1.2.0-0', hasData: true }
+879 silly addNameRange versions [ 'semver',
+879 silly addNameRange   [ '1.0.0',
+879 silly addNameRange     '1.0.1',
+879 silly addNameRange     '1.0.2',
+879 silly addNameRange     '1.0.3',
+879 silly addNameRange     '1.0.4',
+879 silly addNameRange     '1.0.5',
+879 silly addNameRange     '1.0.6',
+879 silly addNameRange     '1.0.7',
+879 silly addNameRange     '1.0.8',
+879 silly addNameRange     '1.0.9',
+879 silly addNameRange     '1.0.10',
+879 silly addNameRange     '1.0.11',
+879 silly addNameRange     '1.0.12',
+879 silly addNameRange     '1.0.13',
+879 silly addNameRange     '1.0.14',
+879 silly addNameRange     '1.1.0',
+879 silly addNameRange     '1.1.1',
+879 silly addNameRange     '1.1.2',
+879 silly addNameRange     '1.1.3',
+879 silly addNameRange     '1.1.4',
+879 silly addNameRange     '2.0.0-alpha',
+879 silly addNameRange     '2.0.0-beta',
+879 silly addNameRange     '2.0.1',
+879 silly addNameRange     '2.0.2',
+879 silly addNameRange     '2.0.3',
+879 silly addNameRange     '2.0.4',
+879 silly addNameRange     '2.0.5',
+879 silly addNameRange     '2.0.6',
+879 silly addNameRange     '2.0.7',
+879 silly addNameRange     '2.0.8',
+879 silly addNameRange     '2.0.9',
+879 silly addNameRange     '2.0.10',
+879 silly addNameRange     '2.0.11',
+879 silly addNameRange     '2.1.0',
+879 silly addNameRange     '2.2.0',
+879 silly addNameRange     '2.2.1',
+879 silly addNameRange     '2.3.0',
+879 silly addNameRange     '2.3.1',
+879 silly addNameRange     '2.3.2',
+879 silly addNameRange     '3.0.0',
+879 silly addNameRange     '3.0.1',
+879 silly addNameRange     '4.0.0',
+879 silly addNameRange     '4.0.2',
+879 silly addNameRange     '4.0.3',
+879 silly addNameRange     '4.1.0',
+879 silly addNameRange     '4.1.1',
+879 silly addNameRange     '4.2.0',
+879 silly addNameRange     '4.2.1',
+879 silly addNameRange     '4.2.2',
+879 silly addNameRange     '4.3.0',
+879 silly addNameRange     '4.3.1',
+879 silly addNameRange     '4.3.2',
+879 silly addNameRange     '4.3.3',
+879 silly addNameRange     '4.3.4',
+879 silly addNameRange     '4.3.5',
+879 silly addNameRange     '4.3.6',
+879 silly addNameRange     '5.0.0',
+879 silly addNameRange     '5.0.1',
+879 silly addNameRange     '5.0.2',
+879 silly addNameRange     '5.0.3',
+879 silly addNameRange     '5.1.0' ] ]
+880 verbose addNamed [ 'semver', '1.1.4' ]
+881 verbose addNamed [ '1.1.4', '1.1.4' ]
+882 silly lockFile da52979e-semver-1-1-4 semver@1.1.4
+883 verbose lock semver@1.1.4 C:\Users\raul\AppData\Roaming\npm-cache\da52979e-semver-1-1-4.lock
+884 silly lockFile da52979e-semver-1-1-4 semver@1.1.4
+885 silly lockFile da52979e-semver-1-1-4 semver@1.1.4
+886 silly lockFile 384d7ac7-semver-1-1-0 semver@~1.1.0
+887 silly lockFile 384d7ac7-semver-1-1-0 semver@~1.1.0
+888 http 304 https://registry.npmjs.org/osenv
+889 silly registry.get cb [ 304,
+889 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+889 silly registry.get     via: '1.1 varnish',
+889 silly registry.get     'cache-control': 'max-age=60',
+889 silly registry.get     etag: '"5PEBCGQI27PB8P8C7TGV8M0K7"',
+889 silly registry.get     age: '36',
+889 silly registry.get     connection: 'keep-alive',
+889 silly registry.get     'x-served-by': 'cache-atl6227-ATL',
+889 silly registry.get     'x-cache': 'HIT',
+889 silly registry.get     'x-cache-hits': '1',
+889 silly registry.get     'x-timer': 'S1449355951.717422,VS0,VE0',
+889 silly registry.get     vary: 'Accept' } ]
+890 verbose etag osenv from cache
+891 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+892 silly lockFile 4085d016-osenv-0-0-3 osenv@0.0.3
+893 http 304 https://registry.npmjs.org/nopt
+894 silly registry.get cb [ 304,
+894 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+894 silly registry.get     via: '1.1 varnish',
+894 silly registry.get     'cache-control': 'max-age=60',
+894 silly registry.get     etag: '"5EF1QGW6L8ZEE22W4CM5Q7TQY"',
+894 silly registry.get     age: '57',
+894 silly registry.get     connection: 'keep-alive',
+894 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+894 silly registry.get     'x-cache': 'HIT',
+894 silly registry.get     'x-cache-hits': '4',
+894 silly registry.get     'x-timer': 'S1449355951.747221,VS0,VE0',
+894 silly registry.get     vary: 'Accept' } ]
+895 verbose etag nopt from cache
+896 silly addNameRange number 2 { name: 'nopt', range: '>=2.0.0-0 <3.0.0-0', hasData: true }
+897 silly addNameRange versions [ 'nopt',
+897 silly addNameRange   [ '1.0.0',
+897 silly addNameRange     '1.0.1',
+897 silly addNameRange     '1.0.2',
+897 silly addNameRange     '1.0.3',
+897 silly addNameRange     '1.0.4',
+897 silly addNameRange     '1.0.5',
+897 silly addNameRange     '1.0.6',
+897 silly addNameRange     '1.0.7',
+897 silly addNameRange     '1.0.8',
+897 silly addNameRange     '1.0.9',
+897 silly addNameRange     '1.0.10',
+897 silly addNameRange     '2.0.0',
+897 silly addNameRange     '2.1.0',
+897 silly addNameRange     '2.1.1',
+897 silly addNameRange     '2.1.2',
+897 silly addNameRange     '2.2.0',
+897 silly addNameRange     '2.2.1',
+897 silly addNameRange     '3.0.0',
+897 silly addNameRange     '3.0.1',
+897 silly addNameRange     '3.0.2',
+897 silly addNameRange     '3.0.3',
+897 silly addNameRange     '3.0.4',
+897 silly addNameRange     '3.0.5',
+897 silly addNameRange     '3.0.6' ] ]
+898 verbose addNamed [ 'nopt', '2.2.1' ]
+899 verbose addNamed [ '2.2.1', '2.2.1' ]
+900 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+901 verbose lock nopt@2.2.1 C:\Users\raul\AppData\Roaming\npm-cache\d02d193f-nopt-2-2-1.lock
+902 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+903 silly lockFile d02d193f-nopt-2-2-1 nopt@2.2.1
+904 silly lockFile 64594a3f-nopt-2 nopt@2
+905 silly lockFile 64594a3f-nopt-2 nopt@2
+906 http 304 https://registry.npmjs.org/ini
+907 silly registry.get cb [ 304,
+907 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:31 GMT',
+907 silly registry.get     via: '1.1 varnish',
+907 silly registry.get     'cache-control': 'max-age=60',
+907 silly registry.get     etag: '"7OPNBVP66M41RBWPKKFI0XWX0"',
+907 silly registry.get     age: '0',
+907 silly registry.get     connection: 'keep-alive',
+907 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+907 silly registry.get     'x-cache': 'HIT',
+907 silly registry.get     'x-cache-hits': '1',
+907 silly registry.get     'x-timer': 'S1449355951.758715,VS0,VE108',
+907 silly registry.get     vary: 'Accept' } ]
+908 verbose etag ini from cache
+909 silly addNameRange number 2 { name: 'ini', range: '>=1.1.0-0 <1.2.0-0', hasData: true }
+910 silly addNameRange versions [ 'ini',
+910 silly addNameRange   [ '1.0.0',
+910 silly addNameRange     '1.0.1',
+910 silly addNameRange     '1.0.2',
+910 silly addNameRange     '1.0.3',
+910 silly addNameRange     '1.0.4',
+910 silly addNameRange     '1.0.5',
+910 silly addNameRange     '1.1.0',
+910 silly addNameRange     '1.2.0',
+910 silly addNameRange     '1.2.1',
+910 silly addNameRange     '1.3.0',
+910 silly addNameRange     '1.3.1',
+910 silly addNameRange     '1.3.2',
+910 silly addNameRange     '1.3.3',
+910 silly addNameRange     '1.3.4' ] ]
+911 verbose addNamed [ 'ini', '1.1.0' ]
+912 verbose addNamed [ '1.1.0', '1.1.0' ]
+913 silly lockFile f80c58e4-ini-1-1-0 ini@1.1.0
+914 verbose lock ini@1.1.0 C:\Users\raul\AppData\Roaming\npm-cache\f80c58e4-ini-1-1-0.lock
+915 silly lockFile f80c58e4-ini-1-1-0 ini@1.1.0
+916 silly lockFile f80c58e4-ini-1-1-0 ini@1.1.0
+917 silly lockFile d6a0c59d-ini-1-1-0 ini@~1.1.0
+918 silly lockFile d6a0c59d-ini-1-1-0 ini@~1.1.0
+919 silly resolved [ { name: 'inherits',
+919 silly resolved     description: 'A tiny simple way to do classic inheritance in js',
+919 silly resolved     version: '1.0.2',
+919 silly resolved     keywords: [ 'inheritance', 'class', 'klass', 'oop', 'object-oriented' ],
+919 silly resolved     main: './inherits.js',
+919 silly resolved     repository:
+919 silly resolved      { type: 'git',
+919 silly resolved        url: 'git+https://github.com/isaacs/inherits.git' },
+919 silly resolved     author:
+919 silly resolved      { name: 'Isaac Z. Schlueter',
+919 silly resolved        email: 'i@izs.me',
+919 silly resolved        url: 'http://blog.izs.me/' },
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+919 silly resolved     homepage: 'https://github.com/isaacs/inherits#readme',
+919 silly resolved     _id: 'inherits@1.0.2',
+919 silly resolved     scripts: {},
+919 silly resolved     _shasum: 'ca4309dadee6b54cc0b8d247e8d7c7a0975bdc9b',
+919 silly resolved     _from: 'inherits@~1.0.0',
+919 silly resolved     _npmVersion: '3.2.2',
+919 silly resolved     _nodeVersion: '2.2.1',
+919 silly resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+919 silly resolved     dist:
+919 silly resolved      { shasum: 'ca4309dadee6b54cc0b8d247e8d7c7a0975bdc9b',
+919 silly resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-1.0.2.tgz' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     directories: {},
+919 silly resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-1.0.2.tgz',
+919 silly resolved     readme: 'ERROR: No README data found!' },
+919 silly resolved   { name: 'once',
+919 silly resolved     version: '1.1.1',
+919 silly resolved     description: 'Run a function exactly one time',
+919 silly resolved     main: 'once.js',
+919 silly resolved     directories: { test: 'test' },
+919 silly resolved     dependencies: {},
+919 silly resolved     devDependencies: { tap: '~0.3.0' },
+919 silly resolved     scripts: { test: 'tap test/*.js' },
+919 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/once' },
+919 silly resolved     keywords: [ 'once', 'function', 'one', 'single' ],
+919 silly resolved     author:
+919 silly resolved      { name: 'Isaac Z. Schlueter',
+919 silly resolved        email: 'i@izs.me',
+919 silly resolved        url: 'http://blog.izs.me/' },
+919 silly resolved     license: 'BSD',
+919 silly resolved     readme: '# once\n\nOnly call a function once.\n\n## usage\n\n```javascript\nvar once = require(\'once\')\n\nfunction load (file, cb) {\n  cb = once(cb)\n  loader.load(\'file\')\n  loader.once(\'load\', cb)\n  loader.once(\'error\', cb)\n}\n```\n\nOr add to the Function.prototype in a responsible way:\n\n```javascript\n// only has to be done once\nrequire(\'once\').proto()\n\nfunction load (file, cb) {\n  cb = cb.once()\n  loader.load(\'file\')\n  loader.once(\'load\', cb)\n  loader.once(\'error\', cb)\n}\n```\n\nIronically, the prototype feature makes this module twice as\ncomplicated as necessary.\n',
+919 silly resolved     _id: 'once@1.1.1',
+919 silly resolved     dist:
+919 silly resolved      { shasum: '9db574933ccb08c3a7614d154032c09ea6f339e7',
+919 silly resolved        tarball: 'http://registry.npmjs.org/once/-/once-1.1.1.tgz' },
+919 silly resolved     _npmVersion: '1.1.48',
+919 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     _shasum: '9db574933ccb08c3a7614d154032c09ea6f339e7',
+919 silly resolved     _from: 'once@~1.1.1',
+919 silly resolved     _resolved: 'https://registry.npmjs.org/once/-/once-1.1.1.tgz',
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/once/issues' },
+919 silly resolved     homepage: 'https://github.com/isaacs/once' },
+919 silly resolved   { name: 'config-chain',
+919 silly resolved     version: '1.1.9',
+919 silly resolved     licenses: [ [Object] ],
+919 silly resolved     description: 'HANDLE CONFIGURATION ONCE AND FOR ALL',
+919 silly resolved     homepage: 'http://github.com/dominictarr/config-chain',
+919 silly resolved     repository:
+919 silly resolved      { type: 'git',
+919 silly resolved        url: 'https://github.com/dominictarr/config-chain.git' },
+919 silly resolved     dependencies: { 'proto-list': '~1.2.1', ini: '1' },
+919 silly resolved     devDependencies: { tap: '0.3.0' },
+919 silly resolved     author:
+919 silly resolved      { name: 'Dominic Tarr',
+919 silly resolved        email: 'dominic.tarr@gmail.com',
+919 silly resolved        url: 'http://dominictarr.com' },
+919 silly resolved     scripts: { test: 'tap test/' },
+919 silly resolved     gitHead: '832609897082a0a887c59dadb105f4db6de1ab4c',
+919 silly resolved     bugs: { url: 'https://github.com/dominictarr/config-chain/issues' },
+919 silly resolved     _id: 'config-chain@1.1.9',
+919 silly resolved     _shasum: '39ac7d4dca84faad926124c54cff25a53aa8bf6e',
+919 silly resolved     _from: 'config-chain@~1.1.1',
+919 silly resolved     _npmVersion: '2.11.0',
+919 silly resolved     _nodeVersion: '0.12.4',
+919 silly resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+919 silly resolved     maintainers: [ [Object], [Object] ],
+919 silly resolved     dist:
+919 silly resolved      { shasum: '39ac7d4dca84faad926124c54cff25a53aa8bf6e',
+919 silly resolved        tarball: 'http://registry.npmjs.org/config-chain/-/config-chain-1.1.9.tgz' },
+919 silly resolved     directories: {},
+919 silly resolved     _resolved: 'https://registry.npmjs.org/config-chain/-/config-chain-1.1.9.tgz',
+919 silly resolved     readme: 'ERROR: No README data found!' },
+919 silly resolved   { name: 'semver',
+919 silly resolved     version: '1.1.4',
+919 silly resolved     description: 'The semantic version parser used by npm.',
+919 silly resolved     main: 'semver.js',
+919 silly resolved     scripts: { test: 'tap test.js' },
+919 silly resolved     devDependencies: { tap: '0.x >=0.0.4' },
+919 silly resolved     license:
+919 silly resolved      { type: 'MIT',
+919 silly resolved        url: 'https://github.com/isaacs/semver/raw/master/LICENSE' },
+919 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-semver.git' },
+919 silly resolved     bin: { semver: './bin/semver' },
+919 silly resolved     _id: 'semver@1.1.4',
+919 silly resolved     dist:
+919 silly resolved      { shasum: '2e5a4e72bab03472cc97f72753b4508912ef5540',
+919 silly resolved        tarball: 'http://registry.npmjs.org/semver/-/semver-1.1.4.tgz' },
+919 silly resolved     _from: 'semver@~1.1.0',
+919 silly resolved     _npmVersion: '1.2.12',
+919 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     directories: {},
+919 silly resolved     _shasum: '2e5a4e72bab03472cc97f72753b4508912ef5540',
+919 silly resolved     _resolved: 'https://registry.npmjs.org/semver/-/semver-1.1.4.tgz',
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/node-semver/issues' },
+919 silly resolved     readme: 'ERROR: No README data found!',
+919 silly resolved     homepage: 'https://github.com/isaacs/node-semver' },
+919 silly resolved   { name: 'osenv',
+919 silly resolved     version: '0.0.3',
+919 silly resolved     main: 'osenv.js',
+919 silly resolved     directories: { test: 'test' },
+919 silly resolved     dependencies: {},
+919 silly resolved     devDependencies: { tap: '~0.2.5' },
+919 silly resolved     scripts: { test: 'tap test/*.js' },
+919 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/osenv' },
+919 silly resolved     keywords:
+919 silly resolved      [ 'environment',
+919 silly resolved        'variable',
+919 silly resolved        'home',
+919 silly resolved        'tmpdir',
+919 silly resolved        'path',
+919 silly resolved        'prompt',
+919 silly resolved        'ps1' ],
+919 silly resolved     author:
+919 silly resolved      { name: 'Isaac Z. Schlueter',
+919 silly resolved        email: 'i@izs.me',
+919 silly resolved        url: 'http://blog.izs.me/' },
+919 silly resolved     license: 'BSD',
+919 silly resolved     description: 'Look up environment settings specific to different operating systems',
+919 silly resolved     _id: 'osenv@0.0.3',
+919 silly resolved     dist:
+919 silly resolved      { shasum: 'cd6ad8ddb290915ad9e22765576025d411f29cb6',
+919 silly resolved        tarball: 'http://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     _shasum: 'cd6ad8ddb290915ad9e22765576025d411f29cb6',
+919 silly resolved     _from: 'osenv@0.0.3',
+919 silly resolved     _resolved: 'https://registry.npmjs.org/osenv/-/osenv-0.0.3.tgz',
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/osenv/issues' },
+919 silly resolved     readme: 'ERROR: No README data found!',
+919 silly resolved     homepage: 'https://github.com/isaacs/osenv' },
+919 silly resolved   { name: 'nopt',
+919 silly resolved     version: '2.2.1',
+919 silly resolved     description: 'Option parsing for Node, supporting types, shorthands, etc. Used by npm.',
+919 silly resolved     author:
+919 silly resolved      { name: 'Isaac Z. Schlueter',
+919 silly resolved        email: 'i@izs.me',
+919 silly resolved        url: 'http://blog.izs.me/' },
+919 silly resolved     main: 'lib/nopt.js',
+919 silly resolved     scripts: { test: 'tap test/*.js' },
+919 silly resolved     repository: { type: 'git', url: 'http://github.com/isaacs/nopt' },
+919 silly resolved     bin: { nopt: './bin/nopt.js' },
+919 silly resolved     license:
+919 silly resolved      { type: 'MIT',
+919 silly resolved        url: 'https://github.com/isaacs/nopt/raw/master/LICENSE' },
+919 silly resolved     dependencies: { abbrev: '1' },
+919 silly resolved     devDependencies: { tap: '~0.4.8' },
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/nopt/issues' },
+919 silly resolved     homepage: 'https://github.com/isaacs/nopt',
+919 silly resolved     _id: 'nopt@2.2.1',
+919 silly resolved     _shasum: '2aa09b7d1768487b3b89a9c5aa52335bff0baea7',
+919 silly resolved     _from: 'nopt@2',
+919 silly resolved     _npmVersion: '1.4.7',
+919 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     dist:
+919 silly resolved      { shasum: '2aa09b7d1768487b3b89a9c5aa52335bff0baea7',
+919 silly resolved        tarball: 'http://registry.npmjs.org/nopt/-/nopt-2.2.1.tgz' },
+919 silly resolved     directories: {},
+919 silly resolved     _resolved: 'https://registry.npmjs.org/nopt/-/nopt-2.2.1.tgz',
+919 silly resolved     readme: 'ERROR: No README data found!' },
+919 silly resolved   { author:
+919 silly resolved      { name: 'Isaac Z. Schlueter',
+919 silly resolved        email: 'i@izs.me',
+919 silly resolved        url: 'http://blog.izs.me/' },
+919 silly resolved     name: 'ini',
+919 silly resolved     description: 'An ini encoder/decoder for node',
+919 silly resolved     version: '1.1.0',
+919 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/ini.git' },
+919 silly resolved     main: 'ini.js',
+919 silly resolved     scripts: { test: 'tap test/*.js' },
+919 silly resolved     engines: { node: '*' },
+919 silly resolved     dependencies: {},
+919 silly resolved     devDependencies: { tap: '~0.0.9' },
+919 silly resolved     _id: 'ini@1.1.0',
+919 silly resolved     dist:
+919 silly resolved      { shasum: '4e808c2ce144c6c1788918e034d6797bc6cf6281',
+919 silly resolved        tarball: 'http://registry.npmjs.org/ini/-/ini-1.1.0.tgz' },
+919 silly resolved     _from: 'ini@~1.1.0',
+919 silly resolved     _npmVersion: '1.2.2',
+919 silly resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+919 silly resolved     maintainers: [ [Object] ],
+919 silly resolved     directories: {},
+919 silly resolved     _shasum: '4e808c2ce144c6c1788918e034d6797bc6cf6281',
+919 silly resolved     _resolved: 'https://registry.npmjs.org/ini/-/ini-1.1.0.tgz',
+919 silly resolved     bugs: { url: 'https://github.com/isaacs/ini/issues' },
+919 silly resolved     readme: 'ERROR: No README data found!',
+919 silly resolved     homepage: 'https://github.com/isaacs/ini' } ]
+920 info install inherits@1.0.2 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+921 info install once@1.1.1 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+922 info install config-chain@1.1.9 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+923 info install semver@1.1.4 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+924 info install osenv@0.0.3 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+925 info install nopt@2.2.1 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+926 info install ini@1.1.0 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+927 info installOne inherits@1.0.2
+928 info installOne once@1.1.1
+929 info installOne config-chain@1.1.9
+930 info installOne semver@1.1.4
+931 info installOne osenv@0.0.3
+932 info installOne nopt@2.2.1
+933 info installOne ini@1.1.0
+934 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits unbuild
+935 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once unbuild
+936 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain unbuild
+937 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver unbuild
+938 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv unbuild
+939 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt unbuild
+940 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini unbuild
+941 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\inherits\1.0.2\package.tgz
+942 silly lockFile 052a6fbe-es-npmconf-node-modules-inherits tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+943 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits C:\Users\raul\AppData\Roaming\npm-cache\052a6fbe-es-npmconf-node-modules-inherits.lock
+944 silly lockFile 764609de-cache-inherits-1-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\inherits\1.0.2\package.tgz
+945 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\inherits\1.0.2\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\764609de-cache-inherits-1-0-2-package-tgz.lock
+946 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\once\1.1.1\package.tgz
+947 silly lockFile 43db57fc-odules-npmconf-node-modules-once tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+948 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once C:\Users\raul\AppData\Roaming\npm-cache\43db57fc-odules-npmconf-node-modules-once.lock
+949 silly lockFile 29afc036-npm-cache-once-1-1-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\once\1.1.1\package.tgz
+950 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\once\1.1.1\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\29afc036-npm-cache-once-1-1-1-package-tgz.lock
+951 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\config-chain\1.1.9\package.tgz
+952 silly lockFile 9a454452-pmconf-node-modules-config-chain tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+953 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain C:\Users\raul\AppData\Roaming\npm-cache\9a454452-pmconf-node-modules-config-chain.lock
+954 silly lockFile 295746f3-e-config-chain-1-1-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\config-chain\1.1.9\package.tgz
+955 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\config-chain\1.1.9\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\295746f3-e-config-chain-1-1-9-package-tgz.lock
+956 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz
+957 silly lockFile f2c531b8-ules-npmconf-node-modules-semver tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+958 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver C:\Users\raul\AppData\Roaming\npm-cache\f2c531b8-ules-npmconf-node-modules-semver.lock
+959 silly lockFile 675807a6-m-cache-semver-1-1-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz
+960 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\675807a6-m-cache-semver-1-1-4-package-tgz.lock
+961 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz
+962 silly lockFile 6c849b27-dules-npmconf-node-modules-osenv tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+963 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv C:\Users\raul\AppData\Roaming\npm-cache\6c849b27-dules-npmconf-node-modules-osenv.lock
+964 silly lockFile e00213be-pm-cache-osenv-0-0-3-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz
+965 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\e00213be-pm-cache-osenv-0-0-3-package-tgz.lock
+966 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz
+967 silly lockFile a8f84366-odules-npmconf-node-modules-nopt tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+968 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt C:\Users\raul\AppData\Roaming\npm-cache\a8f84366-odules-npmconf-node-modules-nopt.lock
+969 silly lockFile 00a8f14b-npm-cache-nopt-2-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz
+970 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\00a8f14b-npm-cache-nopt-2-2-1-package-tgz.lock
+971 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz
+972 silly lockFile ff3c413e-modules-npmconf-node-modules-ini tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+973 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini C:\Users\raul\AppData\Roaming\npm-cache\ff3c413e-modules-npmconf-node-modules-ini.lock
+974 silly lockFile 6bba5106--npm-cache-ini-1-1-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz
+975 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\6bba5106--npm-cache-ini-1-1-0-package-tgz.lock
+976 silly gunzTarPerm modes [ '755', '644' ]
+977 silly gunzTarPerm modes [ '755', '644' ]
+978 silly gunzTarPerm modes [ '755', '644' ]
+979 silly gunzTarPerm modes [ '755', '644' ]
+980 silly gunzTarPerm modes [ '755', '644' ]
+981 silly gunzTarPerm extractEntry package.json
+982 silly gunzTarPerm modes [ '755', '644' ]
+983 silly gunzTarPerm extractEntry package.json
+984 silly gunzTarPerm modes [ '755', '644' ]
+985 silly gunzTarPerm extractEntry README.md
+986 silly gunzTarPerm extractEntry LICENSE
+987 silly gunzTarPerm extractEntry .npmignore
+988 silly gunzTarPerm extractEntry LICENCE
+989 silly gunzTarPerm extractEntry once.js
+990 silly gunzTarPerm extractEntry test/once.js
+991 silly gunzTarPerm extractEntry index.js
+992 silly gunzTarPerm extractEntry readme.markdown
+993 silly gunzTarPerm extractEntry package.json
+994 silly gunzTarPerm extractEntry test/broken.js
+995 silly gunzTarPerm extractEntry README.md
+996 silly gunzTarPerm extractEntry LICENSE
+997 silly gunzTarPerm extractEntry inherits.js
+998 silly gunzTarPerm extractEntry test/chain-class.js
+999 silly gunzTarPerm extractEntry test/env.js
+1000 silly lockFile 43db57fc-odules-npmconf-node-modules-once tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1001 silly lockFile 43db57fc-odules-npmconf-node-modules-once tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1002 silly lockFile 29afc036-npm-cache-once-1-1-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\once\1.1.1\package.tgz
+1003 silly lockFile 29afc036-npm-cache-once-1-1-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\once\1.1.1\package.tgz
+1004 silly gunzTarPerm extractEntry test/find-file.js
+1005 silly gunzTarPerm extractEntry test/get.js
+1006 info preinstall once@1.1.1
+1007 verbose readDependencies using package.json deps
+1008 silly gunzTarPerm extractEntry package.json
+1009 verbose readDependencies using package.json deps
+1010 silly resolved []
+1011 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1012 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\once
+1013 verbose linkStuff [ true,
+1013 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1013 verbose linkStuff   false,
+1013 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1014 info linkStuff once@1.1.1
+1015 verbose linkBins once@1.1.1
+1016 verbose linkMans once@1.1.1
+1017 verbose rebuildBundles once@1.1.1
+1018 info install once@1.1.1
+1019 info postinstall once@1.1.1
+1020 silly gunzTarPerm extractEntry .npmignore
+1021 silly gunzTarPerm extractEntry README.md
+1022 silly lockFile 052a6fbe-es-npmconf-node-modules-inherits tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1023 silly lockFile 052a6fbe-es-npmconf-node-modules-inherits tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1024 silly lockFile 764609de-cache-inherits-1-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\inherits\1.0.2\package.tgz
+1025 silly lockFile 764609de-cache-inherits-1-0-2-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\inherits\1.0.2\package.tgz
+1026 info preinstall inherits@1.0.2
+1027 verbose readDependencies using package.json deps
+1028 verbose readDependencies using package.json deps
+1029 silly resolved []
+1030 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1031 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\inherits
+1032 verbose linkStuff [ true,
+1032 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1032 verbose linkStuff   false,
+1032 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1033 info linkStuff inherits@1.0.2
+1034 verbose linkBins inherits@1.0.2
+1035 verbose linkMans inherits@1.0.2
+1036 verbose rebuildBundles inherits@1.0.2
+1037 info install inherits@1.0.2
+1038 info postinstall inherits@1.0.2
+1039 silly gunzTarPerm extractEntry package.json
+1040 silly gunzTarPerm extractEntry README.md
+1041 silly gunzTarPerm extractEntry LICENSE
+1042 silly gunzTarPerm extractEntry semver.js
+1043 silly gunzTarPerm extractEntry test.js
+1044 silly gunzTarPerm extractEntry bin/semver
+1045 silly gunzTarPerm extractEntry package.json
+1046 silly gunzTarPerm extractEntry LICENSE
+1047 silly gunzTarPerm extractEntry bin/nopt.js
+1048 silly gunzTarPerm extractEntry package.json
+1049 silly gunzTarPerm extractEntry README.md
+1050 silly gunzTarPerm extractEntry LICENSE
+1051 silly gunzTarPerm extractEntry test/ignore-unfound-file.js
+1052 silly gunzTarPerm extractEntry test/ini.js
+1053 silly gunzTarPerm extractEntry README.md
+1054 silly gunzTarPerm extractEntry LICENSE
+1055 silly gunzTarPerm extractEntry examples/my-program.js
+1056 silly gunzTarPerm extractEntry lib/nopt.js
+1057 silly gunzTarPerm extractEntry test/basic.js
+1058 silly gunzTarPerm extractEntry ini.js
+1059 silly gunzTarPerm extractEntry test/bar.js
+1060 silly gunzTarPerm extractEntry test/save.js
+1061 silly gunzTarPerm extractEntry test/broken.json
+1062 silly gunzTarPerm extractEntry osenv.js
+1063 silly gunzTarPerm extractEntry test/unix.js
+1064 silly gunzTarPerm extractEntry test/foo.js
+1065 silly gunzTarPerm extractEntry test/fixtures/foo.ini
+1066 silly gunzTarPerm extractEntry test/windows.js
+1067 silly lockFile 6c849b27-dules-npmconf-node-modules-osenv tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1068 silly lockFile 6c849b27-dules-npmconf-node-modules-osenv tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1069 silly lockFile e00213be-pm-cache-osenv-0-0-3-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz
+1070 silly lockFile e00213be-pm-cache-osenv-0-0-3-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\osenv\0.0.3\package.tgz
+1071 silly lockFile ff3c413e-modules-npmconf-node-modules-ini tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1072 silly lockFile ff3c413e-modules-npmconf-node-modules-ini tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1073 info preinstall osenv@0.0.3
+1074 silly lockFile 6bba5106--npm-cache-ini-1-1-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz
+1075 silly lockFile 6bba5106--npm-cache-ini-1-1-0-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\ini\1.1.0\package.tgz
+1076 verbose readDependencies using package.json deps
+1077 verbose readDependencies using package.json deps
+1078 silly resolved []
+1079 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1080 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\osenv
+1081 verbose linkStuff [ true,
+1081 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1081 verbose linkStuff   false,
+1081 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1082 info linkStuff osenv@0.0.3
+1083 info preinstall ini@1.1.0
+1084 verbose linkBins osenv@0.0.3
+1085 verbose linkMans osenv@0.0.3
+1086 verbose rebuildBundles osenv@0.0.3
+1087 info install osenv@0.0.3
+1088 verbose readDependencies using package.json deps
+1089 info postinstall osenv@0.0.3
+1090 verbose readDependencies using package.json deps
+1091 silly resolved []
+1092 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1093 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\ini
+1094 verbose linkStuff [ true,
+1094 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1094 verbose linkStuff   false,
+1094 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1095 info linkStuff ini@1.1.0
+1096 verbose linkBins ini@1.1.0
+1097 verbose linkMans ini@1.1.0
+1098 verbose rebuildBundles ini@1.1.0
+1099 info install ini@1.1.0
+1100 info postinstall ini@1.1.0
+1101 silly lockFile 9a454452-pmconf-node-modules-config-chain tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1102 silly lockFile 9a454452-pmconf-node-modules-config-chain tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1103 silly lockFile 295746f3-e-config-chain-1-1-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\config-chain\1.1.9\package.tgz
+1104 silly lockFile 295746f3-e-config-chain-1-1-9-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\config-chain\1.1.9\package.tgz
+1105 info preinstall config-chain@1.1.9
+1106 silly lockFile a8f84366-odules-npmconf-node-modules-nopt tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1107 silly lockFile a8f84366-odules-npmconf-node-modules-nopt tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1108 verbose readDependencies using package.json deps
+1109 silly lockFile 00a8f14b-npm-cache-nopt-2-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz
+1110 silly lockFile 00a8f14b-npm-cache-nopt-2-2-1-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\nopt\2.2.1\package.tgz
+1111 verbose readDependencies using package.json deps
+1112 info preinstall nopt@2.2.1
+1113 verbose readDependencies using package.json deps
+1114 verbose readDependencies using package.json deps
+1115 silly lockFile f2c531b8-ules-npmconf-node-modules-semver tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1116 silly lockFile f2c531b8-ules-npmconf-node-modules-semver tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1117 silly lockFile 675807a6-m-cache-semver-1-1-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz
+1118 silly lockFile 675807a6-m-cache-semver-1-1-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\semver\1.1.4\package.tgz
+1119 info preinstall semver@1.1.4
+1120 verbose readDependencies using package.json deps
+1121 verbose readDependencies using package.json deps
+1122 silly resolved []
+1123 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1124 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\semver
+1125 verbose linkStuff [ true,
+1125 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1125 verbose linkStuff   false,
+1125 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1126 info linkStuff semver@1.1.4
+1127 verbose linkBins semver@1.1.4
+1128 verbose link bins [ { semver: './bin/semver' },
+1128 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\.bin',
+1128 verbose link bins   false ]
+1129 verbose linkMans semver@1.1.4
+1130 verbose rebuildBundles semver@1.1.4
+1131 verbose cache add [ 'proto-list@~1.2.1', null ]
+1132 verbose cache add name=undefined spec="proto-list@~1.2.1" args=["proto-list@~1.2.1",null]
+1133 verbose parsed url { protocol: null,
+1133 verbose parsed url   slashes: null,
+1133 verbose parsed url   auth: null,
+1133 verbose parsed url   host: null,
+1133 verbose parsed url   port: null,
+1133 verbose parsed url   hostname: null,
+1133 verbose parsed url   hash: null,
+1133 verbose parsed url   search: null,
+1133 verbose parsed url   query: null,
+1133 verbose parsed url   pathname: 'proto-list@~1.2.1',
+1133 verbose parsed url   path: 'proto-list@~1.2.1',
+1133 verbose parsed url   href: 'proto-list@~1.2.1' }
+1134 verbose cache add [ 'abbrev@1', null ]
+1135 verbose cache add name=undefined spec="abbrev@1" args=["abbrev@1",null]
+1136 verbose parsed url { protocol: null,
+1136 verbose parsed url   slashes: null,
+1136 verbose parsed url   auth: null,
+1136 verbose parsed url   host: null,
+1136 verbose parsed url   port: null,
+1136 verbose parsed url   hostname: null,
+1136 verbose parsed url   hash: null,
+1136 verbose parsed url   search: null,
+1136 verbose parsed url   query: null,
+1136 verbose parsed url   pathname: 'abbrev@1',
+1136 verbose parsed url   path: 'abbrev@1',
+1136 verbose parsed url   href: 'abbrev@1' }
+1137 verbose cache add name="proto-list" spec="~1.2.1" args=["proto-list","~1.2.1"]
+1138 verbose parsed url { protocol: null,
+1138 verbose parsed url   slashes: null,
+1138 verbose parsed url   auth: null,
+1138 verbose parsed url   host: null,
+1138 verbose parsed url   port: null,
+1138 verbose parsed url   hostname: null,
+1138 verbose parsed url   hash: null,
+1138 verbose parsed url   search: null,
+1138 verbose parsed url   query: null,
+1138 verbose parsed url   pathname: '~1.2.1',
+1138 verbose parsed url   path: '~1.2.1',
+1138 verbose parsed url   href: '~1.2.1' }
+1139 verbose addNamed [ 'proto-list', '~1.2.1' ]
+1140 verbose addNamed [ null, '>=1.2.1-0 <1.3.0-0' ]
+1141 silly lockFile 5d8d6d63-proto-list-1-2-1 proto-list@~1.2.1
+1142 verbose lock proto-list@~1.2.1 C:\Users\raul\AppData\Roaming\npm-cache\5d8d6d63-proto-list-1-2-1.lock
+1143 verbose cache add name="abbrev" spec="1" args=["abbrev","1"]
+1144 verbose parsed url { protocol: null,
+1144 verbose parsed url   slashes: null,
+1144 verbose parsed url   auth: null,
+1144 verbose parsed url   host: null,
+1144 verbose parsed url   port: null,
+1144 verbose parsed url   hostname: null,
+1144 verbose parsed url   hash: null,
+1144 verbose parsed url   search: null,
+1144 verbose parsed url   query: null,
+1144 verbose parsed url   pathname: '1',
+1144 verbose parsed url   path: '1',
+1144 verbose parsed url   href: '1' }
+1145 verbose addNamed [ 'abbrev', '1' ]
+1146 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+1147 silly lockFile 6830b531-abbrev-1 abbrev@1
+1148 verbose lock abbrev@1 C:\Users\raul\AppData\Roaming\npm-cache\6830b531-abbrev-1.lock
+1149 silly addNameRange { name: 'proto-list',
+1149 silly addNameRange   range: '>=1.2.1-0 <1.3.0-0',
+1149 silly addNameRange   hasData: false }
+1150 silly addNameRange { name: 'abbrev', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+1151 info install semver@1.1.4
+1152 info postinstall semver@1.1.4
+1153 verbose url raw proto-list
+1154 verbose url resolving [ 'https://registry.npmjs.org/', './proto-list' ]
+1155 verbose url resolved https://registry.npmjs.org/proto-list
+1156 info trying registry request attempt 1 at 20:52:41
+1157 verbose etag "1EC5XUKN8V3HQ1E5A7O7S3GM6"
+1158 http GET https://registry.npmjs.org/proto-list
+1159 verbose url raw abbrev
+1160 verbose url resolving [ 'https://registry.npmjs.org/', './abbrev' ]
+1161 verbose url resolved https://registry.npmjs.org/abbrev
+1162 info trying registry request attempt 1 at 20:52:41
+1163 verbose etag "5COR5F08LNF679JR9VE4E6VZW"
+1164 http GET https://registry.npmjs.org/abbrev
+1165 http 304 https://registry.npmjs.org/abbrev
+1166 silly registry.get cb [ 304,
+1166 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:32 GMT',
+1166 silly registry.get     via: '1.1 varnish',
+1166 silly registry.get     'cache-control': 'max-age=60',
+1166 silly registry.get     etag: '"5COR5F08LNF679JR9VE4E6VZW"',
+1166 silly registry.get     age: '41',
+1166 silly registry.get     connection: 'keep-alive',
+1166 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
+1166 silly registry.get     'x-cache': 'HIT',
+1166 silly registry.get     'x-cache-hits': '2',
+1166 silly registry.get     'x-timer': 'S1449355952.968529,VS0,VE0',
+1166 silly registry.get     vary: 'Accept' } ]
+1167 verbose etag abbrev from cache
+1168 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+1169 silly addNameRange versions [ 'abbrev', [ '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7' ] ]
+1170 verbose addNamed [ 'abbrev', '1.0.7' ]
+1171 verbose addNamed [ '1.0.7', '1.0.7' ]
+1172 silly lockFile 38917c76-abbrev-1-0-7 abbrev@1.0.7
+1173 verbose lock abbrev@1.0.7 C:\Users\raul\AppData\Roaming\npm-cache\38917c76-abbrev-1-0-7.lock
+1174 http 304 https://registry.npmjs.org/proto-list
+1175 silly registry.get cb [ 304,
+1175 silly registry.get   { date: 'Sat, 05 Dec 2015 22:52:32 GMT',
+1175 silly registry.get     via: '1.1 varnish',
+1175 silly registry.get     'cache-control': 'max-age=60',
+1175 silly registry.get     etag: '"1EC5XUKN8V3HQ1E5A7O7S3GM6"',
+1175 silly registry.get     age: '5',
+1175 silly registry.get     connection: 'keep-alive',
+1175 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+1175 silly registry.get     'x-cache': 'HIT',
+1175 silly registry.get     'x-cache-hits': '1',
+1175 silly registry.get     'x-timer': 'S1449355952.972093,VS0,VE0',
+1175 silly registry.get     vary: 'Accept' } ]
+1176 verbose etag proto-list from cache
+1177 silly lockFile 38917c76-abbrev-1-0-7 abbrev@1.0.7
+1178 silly lockFile 38917c76-abbrev-1-0-7 abbrev@1.0.7
+1179 silly lockFile 6830b531-abbrev-1 abbrev@1
+1180 silly lockFile 6830b531-abbrev-1 abbrev@1
+1181 silly addNameRange number 2 { name: 'proto-list',
+1181 silly addNameRange   range: '>=1.2.1-0 <1.3.0-0',
+1181 silly addNameRange   hasData: true }
+1182 silly addNameRange versions [ 'proto-list',
+1182 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.2.4' ] ]
+1183 verbose addNamed [ 'proto-list', '1.2.4' ]
+1184 verbose addNamed [ '1.2.4', '1.2.4' ]
+1185 silly lockFile b9028ff6-proto-list-1-2-4 proto-list@1.2.4
+1186 verbose lock proto-list@1.2.4 C:\Users\raul\AppData\Roaming\npm-cache\b9028ff6-proto-list-1-2-4.lock
+1187 silly resolved [ { name: 'abbrev',
+1187 silly resolved     version: '1.0.7',
+1187 silly resolved     description: 'Like ruby\'s abbrev module, but in js',
+1187 silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+1187 silly resolved     main: 'abbrev.js',
+1187 silly resolved     scripts: { test: 'tap test.js --cov' },
+1187 silly resolved     repository:
+1187 silly resolved      { type: 'git',
+1187 silly resolved        url: 'git+ssh://git@github.com/isaacs/abbrev-js.git' },
+1187 silly resolved     license: 'ISC',
+1187 silly resolved     devDependencies: { tap: '^1.2.0' },
+1187 silly resolved     gitHead: '821d09ce7da33627f91bbd8ed631497ed6f760c2',
+1187 silly resolved     bugs: { url: 'https://github.com/isaacs/abbrev-js/issues' },
+1187 silly resolved     homepage: 'https://github.com/isaacs/abbrev-js#readme',
+1187 silly resolved     _id: 'abbrev@1.0.7',
+1187 silly resolved     _shasum: '5b6035b2ee9d4fb5cf859f08a9be81b208491843',
+1187 silly resolved     _from: 'abbrev@1',
+1187 silly resolved     _npmVersion: '2.10.1',
+1187 silly resolved     _nodeVersion: '2.0.1',
+1187 silly resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+1187 silly resolved     dist:
+1187 silly resolved      { shasum: '5b6035b2ee9d4fb5cf859f08a9be81b208491843',
+1187 silly resolved        tarball: 'http://registry.npmjs.org/abbrev/-/abbrev-1.0.7.tgz' },
+1187 silly resolved     maintainers: [ [Object] ],
+1187 silly resolved     directories: {},
+1187 silly resolved     _resolved: 'https://registry.npmjs.org/abbrev/-/abbrev-1.0.7.tgz',
+1187 silly resolved     readme: 'ERROR: No README data found!' } ]
+1188 info install abbrev@1.0.7 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1189 info installOne abbrev@1.0.7
+1190 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev unbuild
+1191 silly lockFile b9028ff6-proto-list-1-2-4 proto-list@1.2.4
+1192 silly lockFile b9028ff6-proto-list-1-2-4 proto-list@1.2.4
+1193 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz
+1194 silly lockFile 4f5351dd-modules-nopt-node-modules-abbrev tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1195 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev C:\Users\raul\AppData\Roaming\npm-cache\4f5351dd-modules-nopt-node-modules-abbrev.lock
+1196 silly lockFile 9740c75b-m-cache-abbrev-1-0-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz
+1197 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\9740c75b-m-cache-abbrev-1-0-7-package-tgz.lock
+1198 silly lockFile 5d8d6d63-proto-list-1-2-1 proto-list@~1.2.1
+1199 silly lockFile 5d8d6d63-proto-list-1-2-1 proto-list@~1.2.1
+1200 silly gunzTarPerm modes [ '755', '644' ]
+1201 silly resolved [ { name: 'proto-list',
+1201 silly resolved     version: '1.2.4',
+1201 silly resolved     description: 'A utility for managing a prototype chain',
+1201 silly resolved     main: './proto-list.js',
+1201 silly resolved     author:
+1201 silly resolved      { name: 'Isaac Z. Schlueter',
+1201 silly resolved        email: 'i@izs.me',
+1201 silly resolved        url: 'http://blog.izs.me/' },
+1201 silly resolved     scripts: { test: 'tap test/*.js' },
+1201 silly resolved     repository:
+1201 silly resolved      { type: 'git',
+1201 silly resolved        url: 'git+https://github.com/isaacs/proto-list.git' },
+1201 silly resolved     license: 'ISC',
+1201 silly resolved     devDependencies: { tap: '0' },
+1201 silly resolved     gitHead: '9e4af12d4dddee2fd531f0fe0c21c9cfacb78ac0',
+1201 silly resolved     bugs: { url: 'https://github.com/isaacs/proto-list/issues' },
+1201 silly resolved     homepage: 'https://github.com/isaacs/proto-list#readme',
+1201 silly resolved     _id: 'proto-list@1.2.4',
+1201 silly resolved     _shasum: '212d5bfe1318306a420f6402b8e26ff39647a849',
+1201 silly resolved     _from: 'proto-list@~1.2.1',
+1201 silly resolved     _npmVersion: '2.10.0',
+1201 silly resolved     _nodeVersion: '2.0.1',
+1201 silly resolved     _npmUser: { name: 'isaacs', email: 'isaacs@npmjs.com' },
+1201 silly resolved     dist:
+1201 silly resolved      { shasum: '212d5bfe1318306a420f6402b8e26ff39647a849',
+1201 silly resolved        tarball: 'http://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz' },
+1201 silly resolved     maintainers: [ [Object] ],
+1201 silly resolved     directories: {},
+1201 silly resolved     _resolved: 'https://registry.npmjs.org/proto-list/-/proto-list-1.2.4.tgz',
+1201 silly resolved     readme: 'ERROR: No README data found!' } ]
+1202 info install proto-list@1.2.4 into C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1203 info installOne proto-list@1.2.4
+1204 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list unbuild
+1205 verbose tar unpack C:\Users\raul\AppData\Roaming\npm-cache\proto-list\1.2.4\package.tgz
+1206 silly lockFile 2417f685-ig-chain-node-modules-proto-list tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1207 verbose lock tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list C:\Users\raul\AppData\Roaming\npm-cache\2417f685-ig-chain-node-modules-proto-list.lock
+1208 silly lockFile e4041b2b-che-proto-list-1-2-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\proto-list\1.2.4\package.tgz
+1209 verbose lock tar://C:\Users\raul\AppData\Roaming\npm-cache\proto-list\1.2.4\package.tgz C:\Users\raul\AppData\Roaming\npm-cache\e4041b2b-che-proto-list-1-2-4-package-tgz.lock
+1210 silly gunzTarPerm modes [ '755', '644' ]
+1211 silly gunzTarPerm extractEntry package.json
+1212 silly gunzTarPerm extractEntry .npmignore
+1213 silly gunzTarPerm extractEntry README.md
+1214 silly gunzTarPerm extractEntry LICENSE
+1215 silly gunzTarPerm extractEntry abbrev.js
+1216 silly gunzTarPerm extractEntry test.js
+1217 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1218 silly gunzTarPerm extractEntry .travis.yml
+1219 silly gunzTarPerm extractEntry package.json
+1220 silly gunzTarPerm extractEntry README.md
+1221 silly gunzTarPerm extractEntry LICENSE
+1222 silly gunzTarPerm extractEntry proto-list.js
+1223 silly gunzTarPerm extractEntry test/basic.js
+1224 silly lockFile 4f5351dd-modules-nopt-node-modules-abbrev tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1225 silly lockFile 4f5351dd-modules-nopt-node-modules-abbrev tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1226 silly lockFile 9740c75b-m-cache-abbrev-1-0-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz
+1227 silly lockFile 9740c75b-m-cache-abbrev-1-0-7-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\abbrev\1.0.7\package.tgz
+1228 info preinstall abbrev@1.0.7
+1229 verbose readDependencies using package.json deps
+1230 verbose readDependencies using package.json deps
+1231 silly resolved []
+1232 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1233 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt\node_modules\abbrev
+1234 verbose linkStuff [ true,
+1234 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1234 verbose linkStuff   false,
+1234 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\nopt\\node_modules' ]
+1235 info linkStuff abbrev@1.0.7
+1236 verbose linkBins abbrev@1.0.7
+1237 verbose linkMans abbrev@1.0.7
+1238 verbose rebuildBundles abbrev@1.0.7
+1239 info install abbrev@1.0.7
+1240 info postinstall abbrev@1.0.7
+1241 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1242 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\nopt
+1243 verbose linkStuff [ true,
+1243 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1243 verbose linkStuff   false,
+1243 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1244 info linkStuff nopt@2.2.1
+1245 verbose linkBins nopt@2.2.1
+1246 verbose link bins [ { nopt: './bin/nopt.js' },
+1246 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\.bin',
+1246 verbose link bins   false ]
+1247 verbose linkMans nopt@2.2.1
+1248 verbose rebuildBundles nopt@2.2.1
+1249 silly lockFile 2417f685-ig-chain-node-modules-proto-list tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1250 silly lockFile 2417f685-ig-chain-node-modules-proto-list tar://C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1251 verbose rebuildBundles [ 'abbrev' ]
+1252 silly lockFile e4041b2b-che-proto-list-1-2-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\proto-list\1.2.4\package.tgz
+1253 silly lockFile e4041b2b-che-proto-list-1-2-4-package-tgz tar://C:\Users\raul\AppData\Roaming\npm-cache\proto-list\1.2.4\package.tgz
+1254 info preinstall proto-list@1.2.4
+1255 verbose readDependencies using package.json deps
+1256 verbose readDependencies using package.json deps
+1257 silly resolved []
+1258 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1259 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain\node_modules\proto-list
+1260 verbose linkStuff [ true,
+1260 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1260 verbose linkStuff   false,
+1260 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules\\config-chain\\node_modules' ]
+1261 info linkStuff proto-list@1.2.4
+1262 verbose linkBins proto-list@1.2.4
+1263 verbose linkMans proto-list@1.2.4
+1264 verbose rebuildBundles proto-list@1.2.4
+1265 info install nopt@2.2.1
+1266 info install proto-list@1.2.4
+1267 info postinstall nopt@2.2.1
+1268 info postinstall proto-list@1.2.4
+1269 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1270 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf\node_modules\config-chain
+1271 verbose linkStuff [ true,
+1271 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1271 verbose linkStuff   false,
+1271 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules\\npmconf\\node_modules' ]
+1272 info linkStuff config-chain@1.1.9
+1273 verbose linkBins config-chain@1.1.9
+1274 verbose linkMans config-chain@1.1.9
+1275 verbose rebuildBundles config-chain@1.1.9
+1276 verbose rebuildBundles [ 'proto-list' ]
+1277 info install config-chain@1.1.9
+1278 info postinstall config-chain@1.1.9
+1279 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1280 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs\node_modules\npmconf
+1281 verbose linkStuff [ true,
+1281 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1281 verbose linkStuff   false,
+1281 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\phantomjs\\node_modules' ]
+1282 info linkStuff npmconf@0.0.24
+1283 verbose linkBins npmconf@0.0.24
+1284 verbose linkMans npmconf@0.0.24
+1285 verbose rebuildBundles npmconf@0.0.24
+1286 verbose rebuildBundles [ '.bin',
+1286 verbose rebuildBundles   'config-chain',
+1286 verbose rebuildBundles   'inherits',
+1286 verbose rebuildBundles   'ini',
+1286 verbose rebuildBundles   'nopt',
+1286 verbose rebuildBundles   'once',
+1286 verbose rebuildBundles   'osenv',
+1286 verbose rebuildBundles   'semver' ]
+1287 info install npmconf@0.0.24
+1288 info postinstall npmconf@0.0.24
+1289 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1290 info build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs
+1291 verbose linkStuff [ true,
+1291 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules',
+1291 verbose linkStuff   false,
+1291 verbose linkStuff   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules' ]
+1292 info linkStuff phantomjs@1.9.7-5
+1293 verbose linkBins phantomjs@1.9.7-5
+1294 verbose link bins [ { phantomjs: './bin/phantomjs' },
+1294 verbose link bins   'C:\\Users\\raul\\AppData\\Roaming\\npm\\node_modules\\gitbook-pdf\\node_modules\\.bin',
+1294 verbose link bins   false ]
+1295 verbose linkMans phantomjs@1.9.7-5
+1296 verbose rebuildBundles phantomjs@1.9.7-5
+1297 verbose rebuildBundles [ '.bin',
+1297 verbose rebuildBundles   'adm-zip',
+1297 verbose rebuildBundles   'kew',
+1297 verbose rebuildBundles   'mkdirp',
+1297 verbose rebuildBundles   'ncp',
+1297 verbose rebuildBundles   'npmconf',
+1297 verbose rebuildBundles   'rimraf',
+1297 verbose rebuildBundles   'which' ]
+1298 info install phantomjs@1.9.7-5
+1299 verbose unsafe-perm in lifecycle true
+1300 info phantomjs@1.9.7-5 Failed to exec install script
+1301 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\phantomjs unbuild
+1302 info preuninstall phantomjs@1.9.7-5
+1303 info uninstall phantomjs@1.9.7-5
+1304 verbose false,C:\Users\raul\AppData\Roaming\npm\node_modules,C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules unbuild phantomjs@1.9.7-5
+1305 verbose C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf\node_modules\.bin,[object Object] binRoot
+1306 info postuninstall phantomjs@1.9.7-5
+1307 verbose about to build C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf
+1308 info C:\Users\raul\AppData\Roaming\npm\node_modules\gitbook-pdf unbuild
+1309 info preuninstall gitbook-pdf@0.0.2
+1310 info uninstall gitbook-pdf@0.0.2
+1311 verbose true,C:\Users\raul\AppData\Roaming\npm\node_modules,C:\Users\raul\AppData\Roaming\npm\node_modules unbuild gitbook-pdf@0.0.2
+1312 verbose C:\Users\raul\AppData\Roaming\npm,[object Object] binRoot
+1313 info postuninstall gitbook-pdf@0.0.2
+1314 error phantomjs@1.9.7-5 install: `node install.js`
+1314 error Exit status 1
+1315 error Failed at the phantomjs@1.9.7-5 install script.
+1315 error This is most likely a problem with the phantomjs package,
+1315 error not with npm itself.
+1315 error Tell the author that this fails on your system:
+1315 error     node install.js
+1315 error You can get their info via:
+1315 error     npm owner ls phantomjs
+1315 error There is likely additional logging output above.
+1316 error System Windows_NT 6.2.9200
+1317 error command "C:\\PROGRA~1\\nodejs\\\\node.exe" "C:\\PROGRA~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gitbook-pdf" "-g"
+1318 error cwd C:\Users\raul\Documents\GitHub\r_mapas
+1319 error node -v v0.10.29
+1320 error npm -v 1.4.14
+1321 error code ELIFECYCLE
+1322 verbose exit [ 1, true ]

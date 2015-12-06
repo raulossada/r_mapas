@@ -2,9 +2,6 @@
 
 Nesta seção iremos ver alguns pacotes e funções para visualizar mapas no R e no RStudio.
 
-O shapefile usado nessa seção foi obtido do site do [IBGE](http://ibge.gov.br/home/), seguindo o caminho: 
+Os shapefiles usados nesta seção foram obtidos do site da Agência Executiva de Gestão das Águas do Estado da Paraíba [AESA](http://www.aesa.pb.gov.br/geoprocessamento/geoportal/index.php), seguindo o caminho: 
 
-Download &rarr; geociências &rarr; malhas_digitais &rarr; municipio_2013 &rarr; SP &rarr; [sp_municipios.zip](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/malhas_digitais/municipio_2013/SP/sp_municipios.zip)
-
-
-
+**Arquivos Shapefiles** &rarr; [Municipios.zip](http://www.aesa.pb.gov.br/geoprocessamento/geoportal/arquivos/Municipios.zip)

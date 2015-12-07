@@ -1,4 +1,12 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=FALSE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
 
+
+# end setup chunk
+```
 
 ## Como ver os atributos da projeção
 
@@ -10,20 +18,14 @@ Parâmetros interessantes da função:
 - `obj`: Nome do objeto com os dados do shapefile.
 
 1) Vamos carregar o shapefile:
-
-```r
+```{r message=FALSE}
 library("rgdal");
 pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
-**2) Vamos ver qual a projeção desse shapefile:**
-
-```r
+**2) Vamos ver quais são os atributos da projeção desse shapefile:**
+```{r}
 proj4string(obj=pb_poligonos_rgdal);
-```
-
-```
-[1] "+proj=longlat +ellps=aust_SA +no_defs"
 ```
 
 Alguns atributos de projeções:
@@ -33,5 +35,8 @@ Alguns atributos de projeções:
 - `+zone`
 - `+units`
 - `+init`
+
+**Importante!** É importante conhecer os atributos de uma projeção para evitar problemas como: pontos aparecendo fora de um mapa ou cálculos de distância entre pontos muito absurdos, etc.
+
 
 Sugestões de busca em inglês: "r shapefile projection".

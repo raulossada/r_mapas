@@ -4,49 +4,50 @@
 
 #### Função: coordinates
 
-Recomenda-se o uso da função `slot` em conjunto com algumas operações de lógica de programação.
+Recomenda-se o uso da função `coordinates` do pacote `sp`.
+
+Parâmetros interessantes da função: 
+- `obj`: Objeto com os dados do shape.
 
 1) Carregar o shapefile
 
 ```r
 library("rgdal");
 pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+
+proj4string(pb_poligonos_rgdal);
 ```
 
+```
+[1] "+proj=longlat +ellps=aust_SA +no_defs"
+```
+
+**2) Calcular as coordenadas dos centróides dos polígonos**
 
 ```r
-pb_dados <- slot(object=pb_poligonos_rgdal, name="data");
-
-lista_municipios <- c("Cruz do Espírito Santo", "João Pessoa");
-
-indice_numerico <- which( pb_dados$Nome_Munic %in% lista_municipios );
-print(indice_numerico);
+centroide_poligonos <- coordinates(obj=pb_poligonos_rgdal);
 ```
 
-```
-[1] 66 96
-```
+**3) Transformar as coordenadas para um objeto SpatialPoints e definir os atributos da projeção para serem os mesmos dos polígonos**
 
 ```r
-dados_municipios <- pb_poligonos_rgdal[indice_numerico, ];
+centroide_poligonos <- SpatialPoints(coords=centroide_poligonos, proj4string=CRS( proj4string(pb_poligonos_rgdal) ) );
 
-centroide_poligono <- coordinates(obj=dados_municipios);
-
-print(centroide_poligono);
+proj4string(centroide_poligonos);
 ```
 
 ```
-        [,1]      [,2]
-65 -35.10375 -7.152402
-95 -34.86931 -7.164967
+[1] "+proj=longlat +ellps=aust_SA +no_defs"
 ```
+
+4) Plotar o mapa de municípios adicionando os pontos dos centróides calculados anteriormente.
 
 ```r
-plot(centroide_poligono, pch=19, cex=0.5, col="red");
+plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba (Centroides)");
+
+points(centroide_poligonos, pch=19, cex=0.5, col="purple");
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+<img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
-```r
-#text(x=centroide_poligono[1,1], y=centroide_poligono[1,2], "SÃO PAULO");
-```
+Sugestões de busca em inglês: "r polygon centroid".

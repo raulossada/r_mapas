@@ -1,12 +1,4 @@
-```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
-opts_knit$set(base.dir='./', fig.path='', out.format='md')
-opts_chunk$set(prompt=FALSE, comment='', results='markup')
-# See yihui.name/knitr/options for more Knitr options.
-##### Put other setup R code here
 
-
-# end setup chunk
-```
 
 ## Como plotar um mapa no R
 
@@ -23,14 +15,18 @@ Parâmetros interessantes da função:
 - `main`: Texto do título do gráfico.
 
 1) Vamos carregar o shapefile:
-```{r message=FALSE}
+
+```r
 library("rgdal");
 pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
 **2) Vamos plotar o mapa**
-```{r}
-plot(pb_poligonos_rgdal, axes=TRUE, border="darkgray", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba");
+
+```r
+plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba");
 ```
+
+<img src="figure/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês: "r plot shapefile".

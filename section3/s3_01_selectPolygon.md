@@ -66,10 +66,10 @@ dados_municipio <- pb_poligonos_rgdal[indice_numerico, ];
 6) Fazer o plot dos municípios desejados
 
 ```r
-plot( dados_municipio, axes=TRUE, border="darkgray", main="Poligonos dos municipios selecionados" );
+plot( dados_municipio, axes=TRUE, border="darkgrey", main="Poligonos dos municipios selecionados" );
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png) 
+<img src="figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês: "r subset polygon shapefile", "r get polygon shapefile"
 
@@ -82,11 +82,11 @@ Sugestões de busca em português: "r como selecionar 1 polígono específico", 
 Caso queria plotar os poligonos sobre o mapa de municípios basta fazer o que segue:
 
 ```r
-plot( pb_poligonos_rgdal, axes=TRUE, border="darkgray", main="Mapa de municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
+plot( pb_poligonos_rgdal, axes=TRUE, border="darkgrey", main="Mapa de municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
 plot( dados_municipio, border="darkgray", col="red", add=TRUE );
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
+<img src="figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
 
 ****
 

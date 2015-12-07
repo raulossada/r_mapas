@@ -4,12 +4,6 @@
 
 Shape de Polígonos
 
+Shape de Linhas
+
 Shape de Pontos
-
-Shape de linhas
-
-
-Mapas Vetoriais
-
-Mapas de Raster
-

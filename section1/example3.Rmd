@@ -8,10 +8,12 @@ opts_chunk$set(prompt=FALSE, comment='', results='markup')
 # end setup chunk
 ```
 
-## Tipos de shapefile
+## Tipos de mapas
 
-Shape de Polígonos
+#### Mapas Vetoriais
 
-Shape de Linhas
+Objetivo deste livro
 
-Shape de Pontos
+#### Mapas de Raster
+
+Futuramente podem vir a serem tratados neste livro

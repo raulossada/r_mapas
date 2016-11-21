@@ -1,0 +1,38 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=FALSE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
+
+
+# end setup chunk
+```
+
+```{r}
+http://www.r-bloggers.com/r-functions-for-earth-geographic-coordinate-calculations/
+```
+
+```{r}
+http://gis.stackexchange.com/questions/79927/calculate-distance-in-kilometers-between-two-points
+```
+
+```{r}
+http://stackoverflow.com/questions/17361909/determing-the-distance-between-two-zip-codes-alternatives-to-mapdist
+
+library("ggmap")
+mapdist
+
+```
+
+```{r}
+http://stackoverflow.com/questions/29521965/how-to-compute-distances-along-a-network-in-shapefile-in-r
+library("secrlinear");
+networkdistance(xy1, xy2, geometry=);
+```
+
+http://stackoverflow.com/questions/28922874/should-be-easy-distance-along-a-line-in-r?rq=1
+
+http://rpubs.com/geospacedman/routing
+
+http://r-sig-geo.2731867.n2.nabble.com/split-divide-SpatialLines-sp-into-n-segments-td7583234.html#a7583629
+

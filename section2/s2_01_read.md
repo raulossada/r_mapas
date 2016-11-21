@@ -15,7 +15,17 @@ Parâmetros interessantes da função:
 
 ```r
 library("rgdal");
+```
 
+```
+Warning: package 'rgdal' was built under R version 3.3.2
+```
+
+```
+Warning: package 'sp' was built under R version 3.3.2
+```
+
+```r
 pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
 ```
 

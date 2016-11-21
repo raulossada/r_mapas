@@ -1,0 +1,25 @@
+```{r knitsetup, echo=FALSE, results='hide', warning=FALSE, message=FALSE, cache=FALSE}
+opts_knit$set(base.dir='./', fig.path='', out.format='md')
+opts_chunk$set(prompt=FALSE, comment='', results='markup')
+# See yihui.name/knitr/options for more Knitr options.
+##### Put other setup R code here
+
+
+# end setup chunk
+```
+
+# Conhecer as coordenadas min e max tanto em x quanto em y de um polígono específico
+
+```{r}
+SubPoligono_coordenadas_MinMax <- apply(SubPoligono_coordenadas, 2, range);
+
+plot( dados_municipios, axes=TRUE );
+
+points( x=SubPoligono_coordenadas_MinMax[1,1], y=SubPoligono_coordenadas_MinMax[1,2] );
+
+points( x=SubPoligono_coordenadas_MinMax[2,1], y=SubPoligono_coordenadas_MinMax[1,2] );
+
+points( x=SubPoligono_coordenadas_MinMax[2,1], y=SubPoligono_coordenadas_MinMax[2,2] );
+
+points( x=SubPoligono_coordenadas_MinMax[1,1], y=SubPoligono_coordenadas_MinMax[2,2] );
+```

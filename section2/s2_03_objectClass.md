@@ -13,7 +13,8 @@ Parâmetros interessantes da função:
 
 ```r
 library("rgdal");
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
 **2) Vamos ver qual a classe do objeto que guarda os dados do shapefile:**

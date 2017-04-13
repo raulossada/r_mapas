@@ -25,12 +25,19 @@ Parâmetros interessantes da função:
 1) Vamos carregar o shapefile:
 ```{r message=FALSE}
 library("rgdal");
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
 **2) Vamos plotar o mapa**
-```{r fig.align='center'}
-plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba");
+```{r, shape_de_poligonos1, fig.align='center'}
+plot(pb_poligonos_rgdal, 
+     axes=TRUE, 
+     border="darkgrey", 
+     lty=1, 
+     lwd=1, 
+     col="white", 
+     main="Mapa dos municipios do Estado da Paraiba");
 ```
 
 Sugestões de busca em inglês: "r plot shapefile".

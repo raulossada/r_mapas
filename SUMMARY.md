@@ -11,6 +11,7 @@ This is the summary of my book.
     * [Ver atributos da projeção](section2/s2_02_getProjection.md)
     * [Ver a classe do objeto](section2/s2_03_objectClass.md)
     * [Plotar mapa](section2/s2_04_00_plotPolygons.md)
+      * [Plotar mapa (ggplot2)](section2/s2_04_00_00_plotPolygons_ggplot2.md)
       * [Plotar linhas](section2/s2_04_01_plotLines.md)
       * [Plotar pontos](section2/s2_04_02_plotPoints.md)
 * [Seção 3](section3/README.md)

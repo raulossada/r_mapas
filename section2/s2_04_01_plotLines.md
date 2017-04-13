@@ -9,7 +9,8 @@ Vamos adicionar o shape de linhas de Estrada de Ferro
 1) Carregar o shape de polígonos e verificar os atributos de sua projeção:
 
 ```r
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 
 proj4string(pb_poligonos_rgdal);
 ```
@@ -21,7 +22,8 @@ proj4string(pb_poligonos_rgdal);
 2) Carregar o shape de linhas e verificar os atributos de sua projeção:
 
 ```r
-pb_linhas_rgdal <- readOGR(dsn="aesa_pb/Estrada_Ferro", layer="Estrada_Ferro", verbose=FALSE, stringsAsFactors=FALSE);
+pb_linhas_rgdal <- readOGR(dsn="aesa_pb/Estrada_Ferro", layer="Estrada_Ferro", 
+                           verbose=FALSE, stringsAsFactors=FALSE);
 
 proj4string(pb_linhas_rgdal);
 ```
@@ -35,11 +37,12 @@ proj4string(pb_linhas_rgdal);
 3) Plotar o mapa de municípios e adicionar as linhas da estrada de ferro:
 
 ```r
-plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba (Estrada de Ferro)");
+plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", 
+     main="Mapa dos municipios do Estado da Paraiba (Estrada de Ferro)");
 
-plot(pb_linhas_rgdal, add=TRUE, col="black");
+plot(pb_linhas_rgdal, add=TRUE, col="red");
 ```
 
-<img src="figure/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+<img src="figure/shape_de_linhas1-1.png" title="plot of chunk shape_de_linhas1" alt="plot of chunk shape_de_linhas1" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês:

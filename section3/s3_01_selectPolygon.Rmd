@@ -21,7 +21,8 @@ Parâmetros interessantes da função:
 1) Carregar o shapefile
 ```{r message=FALSE}
 library("rgdal");
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
 **2) Separar os dados do shape num data frame**
@@ -53,8 +54,11 @@ dados_municipio <- pb_poligonos_rgdal[indice_numerico, ];
 ```
 
 6) Fazer o plot dos municípios desejados
-```{r fig.align='center'}
-plot( dados_municipio, axes=TRUE, border="darkgrey", main="Poligonos dos municipios selecionados" );
+```{r, shape_de_poligonos3, fig.align='center'}
+plot(dados_municipio, 
+     axes=TRUE, 
+     border="darkgrey", 
+     main="Poligonos dos municipios selecionados" );
 ```
 
 Sugestões de busca em inglês: "r subset polygon shapefile", "r get polygon shapefile"
@@ -66,8 +70,9 @@ Sugestões de busca em português: "r como selecionar 1 polígono específico", 
 #### Extra
 
 Caso queria plotar os poligonos sobre o mapa de municípios basta fazer o que segue:
-```{r fig.align='center'}
-plot( pb_poligonos_rgdal, axes=TRUE, border="darkgrey", main="Mapa de municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
+```{r, shape_de_poligonos4, fig.align='center'}
+plot( pb_poligonos_rgdal, axes=TRUE, border="darkgrey", 
+      main="Municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
 plot( dados_municipio, border="darkgray", col="red", add=TRUE );
 ```
 
@@ -80,4 +85,49 @@ Caso você tenha problemas de encoding no **passo 2**, tente usar a função `re
 ```{r}
 library("foreign");
 pb_dados <- read.dbf(file="aesa_pb/Municipios/Municipios.dbf", as.is=TRUE);
+```
+
+*****
+
+#### Extra - Plot com ggplot2
+
+```{r, shape_de_poligonos5, fig.align='center', fig.height=7, fig.width=14}
+library("rgeos");
+library("maptools");
+library("ggplot2");
+library("mapproj");
+
+names(pb_poligonos_rgdal);
+pb_poligonos_fortify <- fortify(model=pb_poligonos_rgdal, region="GEOCODIG_M");
+dados_municipio_fortify <- fortify(model=dados_municipio, region="GEOCODIG_M");
+
+ggplot() + 
+  geom_polygon(data=pb_poligonos_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="white") + 
+  geom_polygon(data=dados_municipio_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="red") + 
+  coord_map() + 
+  labs(y="latitude", x="longitude", title="Municipios do Estado da Paraiba") + 
+  theme(plot.title=element_text(hjust = 0.5) );
+```
+
+ou
+
+```{r, shape_de_poligonos6, fig.align='center', fig.height=7, fig.width=14}
+ggplot() + 
+  geom_polygon(data=pb_poligonos_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="white") + 
+  geom_polygon(data=dados_municipio_fortify, 
+               mapping=aes(x=long, y=lat, group=group, fill=group), 
+               color="black") + 
+  coord_map() + 
+  scale_fill_discrete( name="Municipios", labels=c("Cruz do Espirito Santo", "Joao Pessoa") ) + 
+  labs(y="latitude", x="longitude", title="Municipios do Estado da Paraiba") + 
+  theme(plot.title=element_text(hjust = 0.5) );
 ```

@@ -13,7 +13,8 @@ Parâmetros interessantes da função:
 
 ```r
 library("rgdal");
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 
 proj4string(pb_poligonos_rgdal);
 ```
@@ -31,7 +32,8 @@ centroide_poligonos <- coordinates(obj=pb_poligonos_rgdal);
 **3) Transformar as coordenadas para um objeto SpatialPoints e definir os atributos da projeção para serem os mesmos dos polígonos**
 
 ```r
-centroide_poligonos <- SpatialPoints(coords=centroide_poligonos, proj4string=CRS( proj4string(pb_poligonos_rgdal) ) );
+centroide_poligonos <- SpatialPoints(coords=centroide_poligonos, 
+                                     proj4string=CRS( proj4string(pb_poligonos_rgdal) ) );
 
 proj4string(centroide_poligonos);
 ```
@@ -43,11 +45,12 @@ proj4string(centroide_poligonos);
 4) Plotar o mapa de municípios adicionando os pontos dos centróides calculados anteriormente.
 
 ```r
-plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", main="Mapa dos municipios do Estado da Paraiba (Centroides)");
+plot(pb_poligonos_rgdal, axes=TRUE, border="darkgrey", lty=1, lwd=1, col="white", 
+     main="Mapa dos municipios do Estado da Paraiba (Centroides)");
 
 points(centroide_poligonos, pch=19, cex=0.5, col="purple");
 ```
 
-<img src="figure/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="figure/shape_de_pontos2-1.png" title="plot of chunk shape_de_pontos2" alt="plot of chunk shape_de_pontos2" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês: "r polygon centroid".

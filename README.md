@@ -1,7 +1,9 @@
 # Mapas no R e RStudio
 #### Autor: Raul Ossada
 
-Versão: 0.2.1 - "Sorriso Certo"
+Versão: 0.2.2 - "Oferendar"
+
+Ano: 2017
 
 Este livro tem como objetivo de apresentar alguns pacotes, funções e parâmetros dessas funções, presentes no programa R relacionados à criação, manipulação, visualizaçao e análises de mapas.
 

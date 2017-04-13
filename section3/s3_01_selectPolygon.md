@@ -14,7 +14,8 @@ Parâmetros interessantes da função:
 
 ```r
 library("rgdal");
-pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", verbose=FALSE, stringsAsFactors=FALSE);
+pb_poligonos_rgdal <- readOGR(dsn="aesa_pb/Municipios", layer="Municipios", 
+                              verbose=FALSE, stringsAsFactors=FALSE);
 ```
 
 **2) Separar os dados do shape num data frame**
@@ -66,10 +67,13 @@ dados_municipio <- pb_poligonos_rgdal[indice_numerico, ];
 6) Fazer o plot dos municípios desejados
 
 ```r
-plot( dados_municipio, axes=TRUE, border="darkgrey", main="Poligonos dos municipios selecionados" );
+plot(dados_municipio, 
+     axes=TRUE, 
+     border="darkgrey", 
+     main="Poligonos dos municipios selecionados" );
 ```
 
-<img src="figure/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="figure/shape_de_poligonos3-1.png" title="plot of chunk shape_de_poligonos3" alt="plot of chunk shape_de_poligonos3" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês: "r subset polygon shapefile", "r get polygon shapefile"
 
@@ -82,11 +86,12 @@ Sugestões de busca em português: "r como selecionar 1 polígono específico", 
 Caso queria plotar os poligonos sobre o mapa de municípios basta fazer o que segue:
 
 ```r
-plot( pb_poligonos_rgdal, axes=TRUE, border="darkgrey", main="Mapa de municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
+plot( pb_poligonos_rgdal, axes=TRUE, border="darkgrey", 
+      main="Municipios do Estado da Paraiba \n com os municipios selecionados em destaque" );
 plot( dados_municipio, border="darkgray", col="red", add=TRUE );
 ```
 
-<img src="figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" style="display: block; margin: auto;" />
+<img src="figure/shape_de_poligonos4-1.png" title="plot of chunk shape_de_poligonos4" alt="plot of chunk shape_de_poligonos4" style="display: block; margin: auto;" />
 
 ****
 
@@ -99,3 +104,63 @@ Caso você tenha problemas de encoding no **passo 2**, tente usar a função `re
 library("foreign");
 pb_dados <- read.dbf(file="aesa_pb/Municipios/Municipios.dbf", as.is=TRUE);
 ```
+
+*****
+
+#### Extra - Plot com ggplot2
+
+
+```r
+library("rgeos");
+library("maptools");
+library("ggplot2");
+library("mapproj");
+
+names(pb_poligonos_rgdal);
+```
+
+```
+ [1] "OBJECTID"    "GEOCODIG_M"  "UF"          "Sigla"       "Nome_Munic" 
+ [6] "Regi�.o"     "Mesorregi�." "Nome_Meso"   "Microrregi"  "Nome_Micro" 
+[11] "Shape_Leng"  "Shape_Area" 
+```
+
+```r
+pb_poligonos_fortify <- fortify(model=pb_poligonos_rgdal, region="GEOCODIG_M");
+dados_municipio_fortify <- fortify(model=dados_municipio, region="GEOCODIG_M");
+
+ggplot() + 
+  geom_polygon(data=pb_poligonos_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="white") + 
+  geom_polygon(data=dados_municipio_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="red") + 
+  coord_map() + 
+  labs(y="latitude", x="longitude", title="Municipios do Estado da Paraiba") + 
+  theme(plot.title=element_text(hjust = 0.5) );
+```
+
+<img src="figure/shape_de_poligonos5-1.png" title="plot of chunk shape_de_poligonos5" alt="plot of chunk shape_de_poligonos5" style="display: block; margin: auto;" />
+
+ou
+
+
+```r
+ggplot() + 
+  geom_polygon(data=pb_poligonos_fortify, 
+               mapping=aes(x=long, y=lat, group=group), 
+               color="black",
+               fill="white") + 
+  geom_polygon(data=dados_municipio_fortify, 
+               mapping=aes(x=long, y=lat, group=group, fill=group), 
+               color="black") + 
+  coord_map() + 
+  scale_fill_discrete( name="Municipios", labels=c("Cruz do Espirito Santo", "Joao Pessoa") ) + 
+  labs(y="latitude", x="longitude", title="Municipios do Estado da Paraiba") + 
+  theme(plot.title=element_text(hjust = 0.5) );
+```
+
+<img src="figure/shape_de_poligonos6-1.png" title="plot of chunk shape_de_poligonos6" alt="plot of chunk shape_de_poligonos6" style="display: block; margin: auto;" />

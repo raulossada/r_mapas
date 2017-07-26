@@ -41,3 +41,12 @@ plot(pb_poligonos_rgdal,
 ```
 
 Sugestões de busca em inglês: "r plot shapefile".
+
+## Outro exemplo: Mapa Mundi
+
+```{r, shape_de_poligonos2, fig.align='center'}
+library("maps");
+
+map(database="world");
+# map(database="world", fill=TRUE, col="white", bg="lightblue", ylim=c(-60, 90), mar=c(0,0,0,0) );
+```

@@ -37,3 +37,18 @@ plot(pb_poligonos_rgdal,
 <img src="figure/shape_de_poligonos1-1.png" title="plot of chunk shape_de_poligonos1" alt="plot of chunk shape_de_poligonos1" style="display: block; margin: auto;" />
 
 Sugestões de busca em inglês: "r plot shapefile".
+
+## Outro exemplo: Mapa Mundi
+
+
+```r
+library("maps");
+
+map(database="world");
+```
+
+<img src="figure/shape_de_poligonos2-1.png" title="plot of chunk shape_de_poligonos2" alt="plot of chunk shape_de_poligonos2" style="display: block; margin: auto;" />
+
+```r
+# map(database="world", fill=TRUE, col="white", bg="lightblue", ylim=c(-60, 90), mar=c(0,0,0,0) );
+```

@@ -1,11 +1,31 @@
 
 
-## Tipos de coordenadas
+# Tipos de coordenadas
 
-#### Coordenadas geográficas (Não-projetadas)
+## Coordenadas geográficas (Não-projetadas)
 
 Latitude/Longitude
 
-#### Coordenadas projetadas
+### Formatos de Latitude/Longitude
+
+1) Signed degrees format (DDD.dddddddd)
+
+Uma latitude ou uma longitude com 8 casas decimais indica uma resolução de 1 milímetro.
+
+Características:
+
+Latitudes do Sul e Longitudes do Oeste são precedidas por um sinal de menos;
+
+Latitudes variam de -90 a 90.
+
+Longitudes variam de -180 a 180.
+
+https://stackoverflow.com/questions/15965166/what-is-the-maximum-length-of-latitude-and-longitude
+
+https://msdn.microsoft.com/en-us/library/aa578799.aspx
+
+http://www.geomidpoint.com/latlon.html
+
+## Coordenadas projetadas
 
 UTM
